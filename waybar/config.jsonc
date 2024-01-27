@@ -1,0 +1,310 @@
+{
+  // sourced from header module //
+  "layer": "top",
+  "position": "bottom",
+  "mod": "dock",
+  "height": 32,
+  "exclusive": true,
+  "passthrough": false,
+  "gtk-layer-shell": true,
+  "modules-left": [
+    "custom/padd",
+    "custom/l_end",
+    "cpu",
+    "memory",
+    "custom/gpuinfo",
+    "idle_inhibitor",
+    "custom/r_end",
+    "custom/l_end",
+    "clock",
+    "custom/r_end",
+    "custom/l_end",
+    "hyprland/workspaces",
+    "custom/r_end",
+    "custom/padd"
+  ],
+  "modules-center": [
+    "custom/padd",
+    "custom/l_end",
+    "wlr/taskbar",
+    "hyprland/window",
+    "custom/r_end",
+    "custom/padd"
+  ],
+  "modules-right": [
+    "custom/padd",
+    "custom/l_end",
+    "backlight",
+    "network",
+    "bluetooth",
+    "pulseaudio",
+    "pulseaudio#microphone",
+    "custom/updates",
+    "custom/r_end",
+    "custom/l_end",
+    "tray",
+    "battery",
+    "custom/r_end",
+    "custom/l_end",
+    "custom/spotify",
+    "custom/wallchange",
+    "custom/dae",
+    "custom/cliphist",
+    "custom/power",
+    "custom/r_end",
+    "custom/padd"
+  ],
+  "cpu": {
+    "interval": 10,
+    "format": "󰍛 {usage}%",
+    "format-alt": "{icon0}{icon1}{icon2}{icon3}",
+    "format-icons": [
+      "▁",
+      "▂",
+      "▃",
+      "▄",
+      "▅",
+      "▆",
+      "▇",
+      "█"
+    ]
+  },
+  "memory": {
+    "interval": 30,
+    "format": "󰾆 {percentage}%",
+    "format-alt": "󰾅 {used}GB",
+    "max-length": 10,
+    "tooltip": true,
+    "tooltip-format": " {used:0.1f}GB/{total:0.1f}GB"
+  },
+  "custom/gpuinfo": {
+    "exec": " ~/.config/scripts/gpuinfo.sh",
+    "return-type": "json",
+    "format": " {}",
+    "interval": 5, // once every 5 seconds
+    "tooltip": true,
+    "max-length": 1000
+  },
+  "idle_inhibitor": {
+    "format": "{icon}",
+    "format-icons": {
+      "activated": "",
+      "deactivated": ""
+    }
+  },
+  "clock": {
+    "format": "{:%I:%M %p 󰃭 %a %d}",
+    "format-alt": "{:%H:%M  %b %Y}",
+    "tooltip-format": "<tt><big>{calendar}</big></tt>"
+  },
+  "hyprland/workspaces": {
+    "disable-scroll": true,
+    "all-outputs": true,
+    "on-click": "activate",
+    "persistent-workspaces": {
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [],
+      "5": [],
+      "6": [],
+      "7": [],
+      "8": [],
+      "9": [],
+      "10": []
+    }
+  },
+  "wlr/taskbar": {
+    "format": "{icon}",
+    "icon-size": 18,
+    "spacing": 0,
+    "tooltip-format": "{title}",
+    "on-click": "activate",
+    "on-click-middle": "close"
+  },
+  "hyprland/window": {
+    "format": "  {}",
+    "separate-outputs": true,
+    "rewrite": {
+      "(.*) — Firefox Nightly": "$1 󰈹",
+      "(.*)Firefox Nightly": "Firefox 󰈹",
+      "(.*) - Code - OSS": "$1 󰨞",
+      "(.*)Code - OSS": "Code 󰨞",
+      "(.*) — Thunar": "$1 󰉋",
+      "(.*)Spotify": "Spotify 󰓇",
+      "(.*)Steam": "Steam 󰓓"
+    },
+    "max-length": 1000
+  },
+  "backlight": {
+    "device": "intel_backlight",
+    "format": "{icon} {percent}%",
+    "format-icons": "☀️",
+    "on-scroll-up": "brightnessctl set 1%+",
+    "on-scroll-down": "brightnessctl set 1%-",
+    "min-length": 6
+  },
+  "network": {
+    // "interface": "wlp2*", // (Optional) To force the use of this interface
+    "format-wifi": "󰤨 {essid}",
+    "format-ethernet": "󱘖 Wired",
+    "tooltip-format": "󱘖 {ipaddr}  {bandwidthUpBytes}  {bandwidthDownBytes}",
+    "format-linked": "󱘖 {ifname} (No IP)",
+    "format-disconnected": " Disconnected",
+    "format-alt": "󰤨 {signalStrength}%",
+    "interval": 5
+  },
+  "bluetooth": {
+    "format": "",
+    "format-disabled": "", // an empty format will hide the module
+    "format-connected": " {num_connections}",
+    "tooltip-format": " {device_alias}",
+    "tooltip-format-connected": "{device_enumerate}",
+    "tooltip-format-enumerate-connected": " {device_alias}"
+  },
+  "pulseaudio": {
+    "format": "{icon} {volume}",
+    "format-muted": "󰖁 ",
+    "on-click": "pavucontrol -t 3",
+    "on-click-middle": "~/.config/scripts/volumecontrol.sh -o m",
+    "on-scroll-up": "~/.config/scripts/volumecontrol.sh -o i",
+    "on-scroll-down": "~/.config/scripts/volumecontrol.sh -o d",
+    "tooltip-format": "{icon} {desc} // {volume}%",
+    "scroll-step": 5,
+    "format-icons": {
+      "headphone": "",
+      "hands-free": "",
+      "headset": "",
+      "phone": "",
+      "portable": "",
+      "car": "",
+      "default": [
+        "",
+        "",
+        ""
+      ]
+    }
+  },
+  "pulseaudio#microphone": {
+    "format": "{format_source}",
+    "format-source": "󰍬 ",
+    "format-source-muted": "",
+    "on-click": "pavucontrol -t 4",
+    "on-click-middle": "~/.config/scripts/volumecontrol.sh -i m",
+    "on-scroll-up": "~/.config/scripts/volumecontrol.sh -i i",
+    "on-scroll-down": "~/.config/scripts/volumecontrol.sh -i d",
+    "tooltip-format": "{format_source} {source_desc} // {source_volume}%",
+    "scroll-step": 5
+  },
+  "custom/updates": {
+    "exec": "~/.config/scripts/systemupdate.sh",
+    "return-type": "json",
+    "format": "󰮯 {}",
+    "on-click": "~/.config/scripts/systemupdate.sh up",
+    "interval": 86400, // once every day
+    "tooltip": true
+  },
+  "tray": {
+    "icon-size": 18,
+    "spacing": 5
+  },
+  "battery": {
+    "states": {
+      "good": 95,
+      "warning": 30,
+      "critical": 20
+    },
+    "format": "{icon} {capacity}%",
+    "format-charging": " {capacity}%",
+    "format-plugged": " {capacity}%",
+    "format-alt": "{time} {icon}",
+    "format-icons": [
+      "󰂎",
+      "󰁺",
+      "󰁻",
+      "󰁼",
+      "󰁽",
+      "󰁾",
+      "󰁿",
+      "󰂀",
+      "󰂁",
+      "󰂂",
+      "󰁹"
+    ]
+  },
+  "custom/spotify": {
+    "exec": "/usr/bin/python3 $HOME/.config/waybar/modules/mediaplayer.py --player spotify",
+    "format": "{} ",
+    "return-type": "json",
+    "on-click": "playerctl play-pause --player spotify",
+    "on-scroll-up": "playerctl previous",
+    "on-scroll-down": "playerctl next"
+  },
+  "custom/wallchange": {
+    "format": "{}",
+    "exec": "echo ; echo 󰆊 switch wallpaper",
+    "on-click": "~/.config/scripts/wall_change.sh -n",
+    "on-click-right": "~/.config/scripts/wall_change.sh -p",
+    "on-click-middle": "sleep 0.1 && ~/.config/scripts/wall_select.sh",
+    "interval": 86400, // once every day
+    "tooltip": true
+  },
+  "custom/dae": {
+    "format": " ",
+    "on-click": "~/.config/scripts/toggleproxy.sh dae r",
+    "on-click-right": "~/.config/scripts/toggleproxy.sh dae s",
+    "tooltip": false
+  },
+  "custom/cliphist": {
+    "format": "{}",
+    "exec": "echo ; echo 󰅇 clipboard history",
+    "on-click": "sleep 0.1 && ~/.config/scripts/cliphist.sh c",
+    "on-click-right": "sleep 0.1 && ~/.config/scripts/cliphist.sh d",
+    "on-click-middle": "sleep 0.1 && ~/.config/scripts/cliphist.sh w",
+    "interval": 86400, // once every day
+    "tooltip": true
+  },
+  "custom/power": {
+    "format": "{}",
+    "exec": "echo ; echo  logout",
+    "on-click": "~/.config/scripts/logoutlaunch.sh 2",
+    "interval": 86400, // once every day
+    "tooltip": true
+  },
+  // modules for padding //
+  "custom/l_end": {
+    "format": " ",
+    "interval": "once",
+    "tooltip": false
+  },
+  "custom/r_end": {
+    "format": " ",
+    "interval": "once",
+    "tooltip": false
+  },
+  "custom/sl_end": {
+    "format": " ",
+    "interval": "once",
+    "tooltip": false
+  },
+  "custom/sr_end": {
+    "format": " ",
+    "interval": "once",
+    "tooltip": false
+  },
+  "custom/rl_end": {
+    "format": " ",
+    "interval": "once",
+    "tooltip": false
+  },
+  "custom/rr_end": {
+    "format": " ",
+    "interval": "once",
+    "tooltip": false
+  },
+  "custom/padd": {
+    "format": "  ",
+    "interval": "once",
+    "tooltip": false
+  }
+}

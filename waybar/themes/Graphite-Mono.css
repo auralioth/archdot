@@ -1,0 +1,10 @@
+@define-color window_waybar_bg rgba(38, 38, 38, 1);
+
+@define-color main_bg #262626;
+@define-color main_fg #d9d9d9;
+
+@define-color workspaces_button_active_bg #d9d9d9;
+@define-color workspaces_button_active_fg #262626;
+
+@define-color workspaces_button_hover_bg #a6a6a6;
+@define-color workspaces_button_hover_fg #262626;

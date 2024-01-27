@@ -1,0 +1,15 @@
+    "hyprland/window": {
+      "format": "  {}",
+      "separate-outputs": true,
+      "rewrite": {
+        "${USER}@${set_sysname}:(.*)": "$1 ",
+        "(.*) — Firefox Nightly": "$1 󰈹",
+        "(.*)Firefox Nightly": "Firefox 󰈹",
+        "(.*) - Code - OSS": "$1 󰨞",
+        "(.*)Code - OSS": "Code 󰨞",
+        "(.*) — Thunar": "$1 󰉋",
+        "(.*)Spotify": "Spotify 󰓇",
+        "(.*)Steam": "Steam 󰓓"
+      },
+      "max-length": 1000
+    },

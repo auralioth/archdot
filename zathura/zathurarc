@@ -1,0 +1,49 @@
+# Zathura configuration file
+# See man `man zathurarc'
+
+# Open document in fit-width mode by default
+set adjust-open "width"
+
+# One page per row by default
+set pages-per-row 1
+
+#stop at page boundries
+set scroll-page-aware "true"
+
+#zoom settings
+set zoom-min 10
+
+set selection-clipboard clipboard
+
+#(to open an external link in a browser)
+# https://git.pwmt.org/pwmt/zathura/-/issues/151
+# https://unix.stackexchange.com/a/625597
+set sandbox none
+
+# 背景颜色
+# set recolor true
+# set default-bg \#1c1c1c
+# set recolor-darkcolor black
+# set recolor-lightcolor "#ECEDB0"
+
+# font
+set font "monospace 18"
+
+#隐藏底部statusbar
+set guioptions ""
+
+#只显示文件名，否则显示完整路径
+set window-title-basename true
+
+#加强搜索，实时搜索
+set incremental-search true
+
+map o zoom out
+map i zoom in
+map <C-k> scroll half-up
+map <C-j> scroll half-down
+map bl feedkeys ":blist<Tab>"
+map bm feedkeys ":bmark "
+map bd feedkeys ":bdelete "
+
+# include ./themes/src/catppuccin-mocha

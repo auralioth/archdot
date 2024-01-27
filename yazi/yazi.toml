@@ -1,0 +1,34 @@
+[manager]
+layout         = [ 1, 3, 4 ]
+sort_by        = "natural"
+sort_sensitive = true
+sort_reverse   = false
+sort_dir_first = true
+show_hidden    = false
+show_symlink   = true
+
+[opener]
+folder = [
+	{ exec = 'open -R "$@"', desc = "Reveal in Finder" },
+	{ exec = '$EDITOR "$@"' },
+]
+archive = [
+	{ exec = 'xarchiver "$1"', desc = "Extract here" },
+]
+text = [
+	{ exec = '$EDITOR "$@"', block = true },
+]
+image = [
+	{ exec = 'imv "$1"', block = true, desc = "Open" },
+]
+video = [
+	{ exec = 'mpv "$@"' },
+]
+audio = [
+	{ exec = 'mpv "$@"' },
+	{ exec = '''mediainfo "$1"; echo "Press enter to exit"; read''', block = true, desc = "Show media info" },
+]
+fallback = [
+	{ exec = 'xdg-open "$@"', desc = "Open" },
+	{ exec = 'open -R "$@"', desc = "Reveal in Finder" },
+]

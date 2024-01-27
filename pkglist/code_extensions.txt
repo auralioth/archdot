@@ -1,0 +1,15 @@
+asvetliakov.vscode-neovim
+Catppuccin.catppuccin-vsc
+Codeium.codeium
+esbenp.prettier-vscode
+James-Yu.latex-workshop
+llvm-vs-code-extensions.vscode-clangd
+ms-pyright.pyright
+ms-python.black-formatter
+ms-python.isort
+ms-python.python
+PKief.material-icon-theme
+redhat.vscode-yaml
+rust-lang.rust-analyzer
+vadimcn.vscode-lldb
+yzhang.markdown-all-in-one

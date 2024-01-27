@@ -1,0 +1,56 @@
+- defaults:
+    link:
+      create: true
+      relink: true
+      force: true
+- clean: ["~", "~/.config"]
+- link:
+    ~/.config/kitty:
+    ~/.config/rofi:
+    ~/.config/waybar:
+    ~/.config/swaylock:
+    ~/.config/swayidle:
+    ~/.config/dunst:
+    ~/.config/yazi:
+    ~/.config/zathura:
+    ~/.config/scripts:
+    ~/.config/fzf:
+    ~/.config/wlogout:
+    ~/.config/btop:
+    ~/.config/cava:
+    ~/.config/imv:
+    ~/.config/gh:
+    ~/.config/yt-dlp:
+    ~/.config/gtk-3.0:
+    ~/.config/gtk-4.0:
+    ~/.config/fontconfig:
+    ~/.config/goldendict:
+    ~/.config/hypr:
+    ~/.config/foot:
+    ~/.config/spotify-flags.conf:
+    ~/.config/shell:
+    ~/.config/paru:
+    ~/.config/clangd:
+    ~/.config/Thunar:
+    ~/.config/nvim:
+    ~/.config/bat:
+    ~/.config/fcitx5:
+    ~/.config/code-flags.conf:
+    ~/.config/Code - OSS/User/settings.json: code-oss/settings.json
+    ~/.config/Code - OSS/User/keybindings.json: code-oss/keybindings.json
+    ~/.clang-format:
+    ~/.bash_profile:
+    ~/.bashrc:
+    ~/.zshenv:
+    ~/.gitconfig:
+    ~/.latexmkrc:
+    # ~/.gtkrc-2.0: gtk-2.0/gtkrc-2.0
+    ~/.local/share/fonts:
+    ~/.vscode-oss/argv.json: code-oss/argv.json
+    ~/texmf:
+    ~/.local/share/applications/nvim.desktop:
+    ~/bin:
+- create:
+    - ~/.local/bin
+- shell:
+    - [git submodule update --init --recursive, Installing submodules]
