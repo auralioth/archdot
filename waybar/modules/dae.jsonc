@@ -1,6 +1,0 @@
-  "custom/dae": {
-    "format": " ",
-    "on-click": "~/.config/scripts/toggleproxy.sh dae r",
-    "on-click-right": "~/.config/scripts/toggleproxy.sh dae s",
-    "tooltip": false
-  },

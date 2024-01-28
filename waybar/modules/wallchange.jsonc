@@ -1,9 +1,0 @@
-    "custom/wallchange": {
-      "format": "{}",
-      "exec": "echo ; echo 󰆊 switch wallpaper",
-      "on-click": "~/.config/scripts/wall_change.sh -n",
-      "on-click-right": "~/.config/scripts/wall_change.sh -p",
-      "on-click-middle": "sleep 0.1 && ~/.config/scripts/wall_select.sh",
-      "interval": 86400, // once every day
-      "tooltip": true
-    },

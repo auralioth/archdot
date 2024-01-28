@@ -1,6 +1,0 @@
-  "custom/clash": {
-    "format": " ",
-    "tooltip": false,
-    "on-click": "~/.config/scripts/toggleproxy.sh clash",
-    "on-click-right": "xdg-open https://yacd.metacubex.one/#/"
-  },
