@@ -12,11 +12,11 @@
 # Before Install
 
 > **Warning**  
-> This is my own [Hyprland](https://github.com/hyprwm/Hyprland) based dotfile. So make sure you have at least skimmed throuth my [installation process](https://github.com/auryouth/archdoc) to check if satisfying some basic requirements.
+> This is my own [Hyprland](https://github.com/hyprwm/Hyprland) based dotfile. So make sure you have at least skimmed throuth my [installation process](https://github.com/auryouth/archInstall) to check if satisfying some basic requirements.
 
 # Fast Recovery
 
-There is a script at [pkglist/scripts/install.sh](https://github.com/auryouth/archdot/blob/master/pkglist/scripts/install.sh) which can help you complete almost everything.
+There is a script at [pkglist/scripts/install.sh](https://github.com/auryouth/archdot/blob/Hyprland/pkglist/scripts/install.sh) which can help you complete almost everything.
 
 > **Note**  
 > Before running the script, make sure of two things. One is you have **`Good Network`**, the other is to `add my own repo`
@@ -59,4 +59,4 @@ $ ./install.sh
 
 # More things
 
-Refer to [after_install.md](https://github.com/auryouth/archdoc/blob/master/after_install.md) for more info.
+Refer to [after_install.md](https://github.com/auryouth/archdot/blob/Hyprland/after_install.md) for more info.
