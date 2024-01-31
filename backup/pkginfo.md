@@ -6,6 +6,7 @@
 | ------- | ---- |
 | adobe-source-han-sans-otc-fonts | Adobe Source Han Sans - A set of Pan-CJK fonts designed to complement Source Sans Pro |
 | adobe-source-han-serif-otc-fonts | Adobe Source Han Serif - Pan-CJK OpenType/CFF Collection fonts |
+| akregator | A Feed Reader by KDE |
 | archlinuxcn-keyring | Arch Linux CN PGP keyring |
 | aria2 | Download utility that supports HTTP(S), FTP, BitTorrent, and Metalink |
 | ark | Archiving Tool |
@@ -38,9 +39,13 @@
 | intel-media-driver | Intel Media Driver for VAAPI — Broadwell+ iGPUs |
 | intel-ucode | Microcode update files for Intel CPUs |
 | iwd | Internet Wireless Daemon |
+| kaddressbook | KDE contact manager |
 | kate | Advanced text editor |
 | kcron | Configure and schedule tasks |
 | kdeconnect | Adds communication between KDE and your smartphone |
+| kmail | KDE mail client |
+| kontact | KDE Personal Information Manager |
+| korganizer | Calendar and scheduling Program |
 | ksystemlog | System log viewer tool |
 | kwallet-pam | KWallet PAM integration |
 | kwalletmanager | Wallet management tool |
@@ -51,6 +56,7 @@
 | linux-headers | Headers and scripts for building modules for the Linux kernel |
 | linux-lts | The LTS Linux kernel and modules |
 | linux-lts-headers | Headers and scripts for building modules for the LTS Linux kernel |
+| man-db | A utility for reading man pages |
 | neovim | Fork of Vim aiming to improve user experience, plugins, and GUIs |
 | npm | A package manager for JavaScript |
 | ntfs-3g | NTFS filesystem driver and utilities |
@@ -66,6 +72,7 @@
 | ripgrep | A search tool that combines the usability of ag with the raw speed of grep |
 | sddm-kcm | KDE Config Module for SDDM |
 | spectacle | KDE screenshot capture utility |
+| telegram-desktop | Official Telegram Desktop client |
 | tree | A directory listing program displaying a depth indented list of files |
 | ttf-iosevkaterm-nerd | Patched font Iosevka Term from nerd fonts library |
 | ttf-twemoji | Truetype builds of Twemoji; Twitter Color Emoji for everyone. |
