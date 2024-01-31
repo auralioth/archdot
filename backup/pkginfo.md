@@ -8,6 +8,7 @@
 | adobe-source-han-serif-otc-fonts | Adobe Source Han Serif - Pan-CJK OpenType/CFF Collection fonts |
 | archlinuxcn-keyring | Arch Linux CN PGP keyring |
 | aria2 | Download utility that supports HTTP(S), FTP, BitTorrent, and Metalink |
+| ark | Archiving Tool |
 | base | Minimal package set to define a basic Arch Linux installation |
 | base-devel | Basic tools to build Arch Linux packages |
 | bat | Cat clone with syntax highlighting and git integration |
@@ -29,7 +30,6 @@
 | fcitx5-qt | Fcitx5 Qt Library (Qt5 & Qt6 integrations) |
 | fd | Simple, fast and user-friendly alternative to find |
 | firefox | Standalone web browser from mozilla.org |
-| foot | Fast, lightweight, and minimalistic Wayland terminal emulator |
 | fzf | Command-line fuzzy finder |
 | git | the fast distributed version control system |
 | grub | GNU GRand Unified Bootloader (2) |
@@ -49,6 +49,7 @@
 | npm | A package manager for JavaScript |
 | ntfs-3g | NTFS filesystem driver and utilities |
 | os-prober | Utility to detect other OSes on a set of drives |
+| p7zip | Command-line file archiver with high compression ratio |
 | paru | Feature packed AUR helper |
 | plasma-desktop | KDE Plasma Desktop |
 | plasma-nm | Plasma applet written in QML for managing network connections |
@@ -56,9 +57,12 @@
 | plasma-wayland-session | Plasma Wayland session |
 | ripgrep | A search tool that combines the usability of ag with the raw speed of grep |
 | sddm-kcm | KDE Config Module for SDDM |
+| spectacle | KDE screenshot capture utility |
+| tree | A directory listing program displaying a depth indented list of files |
 | ttf-iosevkaterm-nerd | Patched font Iosevka Term from nerd fonts library |
 | unzip | For extracting and viewing files in .zip archives |
 | wl-clipboard | Command-line copy/paste utilities for Wayland |
 | xdg-desktop-portal-kde | A backend implementation for xdg-desktop-portal using Qt/KF5 |
+| yakuake | A drop-down terminal emulator based on KDE konsole technology |
 | yazi-git | Blazing fast terminal file manager written in Rust, based on async I/O. |
 | zsh | A very advanced and programmable command interpreter (shell) for UNIX |

@@ -10,8 +10,6 @@ export XMODIFIERS=@im=fcitx
 
 # Default apps
 export EDITOR=nvim
-export TERMINAL=foot
-export BROWSER=firefox
 export TERMFM=yazi
 export FETCH=fastfetch
 export GITMGR=lazygit

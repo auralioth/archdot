@@ -6,7 +6,6 @@
 - clean: ["~", "~/.config"]
 - link:
     ~/.config/fontconfig:
-    ~/.config/foot:
     ~/.config/shell:
     ~/.config/nvim:
     ~/.config/paru:
