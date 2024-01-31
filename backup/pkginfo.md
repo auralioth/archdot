@@ -49,6 +49,8 @@
 | linux | The Linux kernel and modules |
 | linux-firmware | Firmware files for Linux |
 | linux-headers | Headers and scripts for building modules for the Linux kernel |
+| linux-lts | The LTS Linux kernel and modules |
+| linux-lts-headers | Headers and scripts for building modules for the LTS Linux kernel |
 | neovim | Fork of Vim aiming to improve user experience, plugins, and GUIs |
 | npm | A package manager for JavaScript |
 | ntfs-3g | NTFS filesystem driver and utilities |
@@ -66,6 +68,7 @@
 | spectacle | KDE screenshot capture utility |
 | tree | A directory listing program displaying a depth indented list of files |
 | ttf-iosevkaterm-nerd | Patched font Iosevka Term from nerd fonts library |
+| ttf-twemoji | Truetype builds of Twemoji; Twitter Color Emoji for everyone. |
 | unzip | For extracting and viewing files in .zip archives |
 | wl-clipboard | Command-line copy/paste utilities for Wayland |
 | xdg-desktop-portal-kde | A backend implementation for xdg-desktop-portal using Qt/KF5 |
