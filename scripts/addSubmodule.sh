@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 git submodule add https://github.com/seebi/dircolors-solarized shell/plugins/dircolors-solarized
 git submodule add https://github.com/zsh-users/zsh-syntax-highlighting shell/plugins/zsh-syntax-highlighting
