@@ -33,11 +33,15 @@
 | fzf | Command-line fuzzy finder |
 | git | the fast distributed version control system |
 | grub | GNU GRand Unified Bootloader (2) |
+| gwenview | A fast and easy to use image viewer |
 | inetutils | A collection of common network programs |
 | intel-media-driver | Intel Media Driver for VAAPI — Broadwell+ iGPUs |
 | intel-ucode | Microcode update files for Intel CPUs |
 | iwd | Internet Wireless Daemon |
+| kate | Advanced text editor |
 | kcron | Configure and schedule tasks |
+| kdeconnect | Adds communication between KDE and your smartphone |
+| ksystemlog | System log viewer tool |
 | kwallet-pam | KWallet PAM integration |
 | kwalletmanager | Wallet management tool |
 | lazygit | Simple terminal UI for git commands |
@@ -48,12 +52,14 @@
 | neovim | Fork of Vim aiming to improve user experience, plugins, and GUIs |
 | npm | A package manager for JavaScript |
 | ntfs-3g | NTFS filesystem driver and utilities |
+| okular | Document Viewer |
 | os-prober | Utility to detect other OSes on a set of drives |
 | p7zip | Command-line file archiver with high compression ratio |
 | paru | Feature packed AUR helper |
 | plasma-desktop | KDE Plasma Desktop |
 | plasma-nm | Plasma applet written in QML for managing network connections |
 | plasma-pa | Plasma applet for audio volume management using PulseAudio |
+| plasma-systemmonitor | An interface for monitoring system sensors, process information and other system resources |
 | plasma-wayland-session | Plasma Wayland session |
 | ripgrep | A search tool that combines the usability of ag with the raw speed of grep |
 | sddm-kcm | KDE Config Module for SDDM |
