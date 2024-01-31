@@ -10,8 +10,6 @@
     ~/.config/nvim:
     ~/.config/paru:
     ~/.gitconfig:
-    ~/.bash_profile:
-    ~/.bashrc:
     ~/.zshenv:
     ~/bin:
 - shell:
