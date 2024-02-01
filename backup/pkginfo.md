@@ -43,6 +43,7 @@
 | kate | Advanced text editor |
 | kcron | Configure and schedule tasks |
 | kdeconnect | Adds communication between KDE and your smartphone |
+| kdialog | A utility for displaying dialog boxes from shell scripts |
 | kmail | KDE mail client |
 | kontact | KDE Personal Information Manager |
 | korganizer | Calendar and scheduling Program |
