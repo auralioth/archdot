@@ -1,4 +1,6 @@
-#!/bin/bash
+#!/usr/bin/env bash
+
+set -e
 
 # 设置一个时间阈值，例如30天
 threshold_days=30
