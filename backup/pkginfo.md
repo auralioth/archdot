@@ -15,6 +15,7 @@
 | bat | Cat clone with syntax highlighting and git integration |
 | bluedevil | Integrate the Bluetooth technology within KDE workspace and applications |
 | btrfs-progs | Btrfs filesystem utilities |
+| compsize | Calculate compression ratio of a set of files on Btrfs |
 | dae-git | A Linux lightweight and high-performance transparent proxy solution based on eBPF. |
 | dae-rules-dat | Route rules for dae |
 | dhcpcd | DHCP/ IPv4LL/ IPv6RA/ DHCPv6 client |
@@ -55,8 +56,6 @@
 | linux | The Linux kernel and modules |
 | linux-firmware | Firmware files for Linux |
 | linux-headers | Headers and scripts for building modules for the Linux kernel |
-| linux-lts | The LTS Linux kernel and modules |
-| linux-lts-headers | Headers and scripts for building modules for the LTS Linux kernel |
 | man-db | A utility for reading man pages |
 | neovim | Fork of Vim aiming to improve user experience, plugins, and GUIs |
 | npm | A package manager for JavaScript |

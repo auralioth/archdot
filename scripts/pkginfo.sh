@@ -30,9 +30,9 @@
 set -e
 
 cacheDir="$HOME/.cache"
-backupDir="$cacheDir/dotfile/backup"
+backupDir="$HOME/.dotfile/backup"
 pkginfo="$backupDir/pkginfo.md"
-scriptPath="$HOME/.dotfile/scripts/pkginfo.sh"
+scriptPath='$HOME/.dotfile/scripts/pkginfo.sh'
 
 # Create backup directory if it doesn't exist
 mkdir -p "$backupDir"
