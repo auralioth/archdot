@@ -14,6 +14,7 @@
 | base-devel | Basic tools to build Arch Linux packages |
 | bat | Cat clone with syntax highlighting and git integration |
 | bluedevil | Integrate the Bluetooth technology within KDE workspace and applications |
+| breeze-gtk | Breeze widget theme for GTK 2 and 3 |
 | btrfs-progs | Btrfs filesystem utilities |
 | compsize | Calculate compression ratio of a set of files on Btrfs |
 | dae-git | A Linux lightweight and high-performance transparent proxy solution based on eBPF. |
@@ -34,6 +35,7 @@
 | firefox | Standalone web browser from mozilla.org |
 | fzf | Command-line fuzzy finder |
 | git | the fast distributed version control system |
+| github-cli | The GitHub CLI |
 | grub | GNU GRand Unified Bootloader (2) |
 | gwenview | A fast and easy to use image viewer |
 | inetutils | A collection of common network programs |
@@ -43,6 +45,7 @@
 | kaddressbook | KDE contact manager |
 | kate | Advanced text editor |
 | kcron | Configure and schedule tasks |
+| kde-gtk-config | GTK2 and GTK3 Configurator for KDE |
 | kdeconnect | Adds communication between KDE and your smartphone |
 | kdialog | A utility for displaying dialog boxes from shell scripts |
 | kmail | KDE mail client |
@@ -77,6 +80,7 @@
 | ttf-iosevkaterm-nerd | Patched font Iosevka Term from nerd fonts library |
 | ttf-twemoji | Truetype builds of Twemoji; Twitter Color Emoji for everyone. |
 | unzip | For extracting and viewing files in .zip archives |
+| visual-studio-code-bin | Visual Studio Code (vscode) |
 | wl-clipboard | Command-line copy/paste utilities for Wayland |
 | xdg-desktop-portal-kde | A backend implementation for xdg-desktop-portal using Qt/KF5 |
 | yakuake | A drop-down terminal emulator based on KDE konsole technology |
