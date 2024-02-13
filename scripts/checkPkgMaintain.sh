@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# 检测当前系统安装包( explicitly installed )是否超过60天未更新
+# 以判断上游维护状态是否正常
+
 set -e
 
 # 设置一个时间阈值，例如60天

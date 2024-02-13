@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+# 更新系统 explicitly installed packages
+# 包信息存储在 $backupDir
+# 每次运行用 kdialog 来通知增加、移除和未改变三种状态
+
 set -e
 
 cacheDir="$HOME/.cache"
