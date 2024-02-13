@@ -25,6 +25,9 @@ paru -Qe | awk '{print $1}' >"$cacheDir/current_packages.txt"
 
 # Compare the current and previous package lists
 if [ -f "$cacheDir/previous_packages.txt" ]; then
+	sort "$cacheDir/previous_packages.txt" -o "$cacheDir/previous_packages.txt"
+	sort "$cacheDir/current_packages.txt" -o "$cacheDir/current_packages.txt"
+
 	comm -23 "$cacheDir/previous_packages.txt" "$cacheDir/current_packages.txt" >"$cacheDir/removed_packages.txt"
 	comm -13 "$cacheDir/previous_packages.txt" "$cacheDir/current_packages.txt" >"$cacheDir/added_packages.txt"
 else
