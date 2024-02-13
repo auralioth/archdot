@@ -36,6 +36,7 @@
 | fzf | Command-line fuzzy finder |
 | git | the fast distributed version control system |
 | github-cli | The GitHub CLI |
+| go | Core compiler tools for the Go programming language |
 | grub | GNU GRand Unified Bootloader (2) |
 | gwenview | A fast and easy to use image viewer |
 | inetutils | A collection of common network programs |
@@ -77,10 +78,11 @@
 | spectacle | KDE screenshot capture utility |
 | telegram-desktop | Official Telegram Desktop client |
 | tree | A directory listing program displaying a depth indented list of files |
-| ttf-iosevkaterm-nerd | Patched font Iosevka Term from nerd fonts library |
+| ttf-firacode-nerd | Patched font Fira (Fura) Code from nerd fonts library |
 | ttf-twemoji | Truetype builds of Twemoji; Twitter Color Emoji for everyone. |
 | unzip | For extracting and viewing files in .zip archives |
 | visual-studio-code-bin | Visual Studio Code (vscode) |
+| wget | Network utility to retrieve files from the Web |
 | wl-clipboard | Command-line copy/paste utilities for Wayland |
 | xdg-desktop-portal-kde | A backend implementation for xdg-desktop-portal using Qt/KF5 |
 | yakuake | A drop-down terminal emulator based on KDE konsole technology |
