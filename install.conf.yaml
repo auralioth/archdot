@@ -9,8 +9,11 @@
     ~/.config/shell:
     ~/.config/nvim:
     ~/.config/paru:
+    ~/.config/clangd:
+    ~/.config/code-flags.conf:
     ~/.gitconfig:
     ~/.zshenv:
+    ~/.latexmkrc:
     ~/bin:
 
 - create:
