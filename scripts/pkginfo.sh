@@ -72,4 +72,8 @@ get_package_description() {
 
 export -f get_package_description
 
-paru -Qe | awk '{print $1}' | parallel -j 4 get_package_description {} >>"$pkginfo"
+packages=$(paru -Qeq)
+
+for package in $packages; do
+	get_package_description "$package" >>"$pkginfo" &
+done
