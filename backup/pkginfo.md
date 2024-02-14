@@ -4,38 +4,3 @@
 
 | 软件包 | 描述 |
 | ------- | ---- |
-| adobe-source-han-sans-otc-fonts | Adobe Source Han Sans - A set of Pan-CJK fonts designed to complement Source Sans Pro |
-| adobe-source-han-serif-otc-fonts | Adobe Source Han Serif - Pan-CJK OpenType/CFF Collection fonts |
-| akregator | A Feed Reader by KDE |
-| archlinuxcn-keyring | Arch Linux CN PGP keyring |
-| aria2 | Download utility that supports HTTP(S), FTP, BitTorrent, and Metalink |
-| ark | Archiving Tool |
-| base | Minimal package set to define a basic Arch Linux installation |
-| base-devel | Basic tools to build Arch Linux packages |
-| bat | Cat clone with syntax highlighting and git integration |
-| bluedevil | Integrate the Bluetooth technology within KDE workspace and applications |
-| breeze-gtk | Breeze widget theme for GTK 2 and 3 |
-| btrfs-progs | Btrfs filesystem utilities |
-| clang | C language family frontend for LLVM |
-| compsize | Calculate compression ratio of a set of files on Btrfs |
-| dae-git | A Linux lightweight and high-performance transparent proxy solution based on eBPF. |
-| dae-rules-dat | Route rules for dae |
-| dhcpcd | DHCP/ IPv4LL/ IPv6RA/ DHCPv6 client |
-| dolphin | KDE File Manager |
-| efibootmgr | Linux user-space application to modify the EFI Boot Manager |
-| expac | alpm data (pacman database) extraction utility |
-| fastfetch | Like Neofetch, but much faster because written in C |
-| fcitx5 | Next generation of fcitx |
-| fcitx5-chinese-addons | Addons related to Chinese, including IME previous bundled inside fcitx4 |
-| fcitx5-configtool | Configuration Tool for Fcitx5 |
-| fcitx5-gtk | Fcitx5 gtk im module and glib based dbus client library |
-| fcitx5-pinyin-moegirl | Fcitx 5 Pinyin Dictionary from zh.moegirl.org.cn |
-| fcitx5-pinyin-zhwiki | Fcitx 5 Pinyin Dictionary from zh.wikipedia.org |
-| fcitx5-qt | Fcitx5 Qt Library (Qt5 & Qt6 integrations) |
-| fd | Simple, fast and user-friendly alternative to find |
-| firefox | Standalone web browser from mozilla.org |
-| fzf | Command-line fuzzy finder |
-| git | the fast distributed version control system |
-| github-cli | The GitHub CLI |
-| go | Core compiler tools for the Go programming language |
-| grub | GNU GRand Unified Bootloader (2) |
