@@ -75,5 +75,5 @@ export -f get_package_description
 packages=$(paru -Qeq)
 
 for package in $packages; do
-	get_package_description "$package" >>"$pkginfo" &
+	get_package_description "$package" >>"$pkginfo"
 done
