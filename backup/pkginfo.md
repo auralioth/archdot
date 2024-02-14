@@ -16,6 +16,7 @@
 | bluedevil | Integrate the Bluetooth technology within KDE workspace and applications |
 | breeze-gtk | Breeze widget theme for GTK 2 and 3 |
 | btrfs-progs | Btrfs filesystem utilities |
+| clang | C language family frontend for LLVM |
 | compsize | Calculate compression ratio of a set of files on Btrfs |
 | dae-git | A Linux lightweight and high-performance transparent proxy solution based on eBPF. |
 | dae-rules-dat | Route rules for dae |
@@ -38,53 +39,3 @@
 | github-cli | The GitHub CLI |
 | go | Core compiler tools for the Go programming language |
 | grub | GNU GRand Unified Bootloader (2) |
-| gwenview | A fast and easy to use image viewer |
-| inetutils | A collection of common network programs |
-| intel-media-driver | Intel Media Driver for VAAPI — Broadwell+ iGPUs |
-| intel-ucode | Microcode update files for Intel CPUs |
-| iwd | Internet Wireless Daemon |
-| kaddressbook | KDE contact manager |
-| kate | Advanced text editor |
-| kcron | Configure and schedule tasks |
-| kde-gtk-config | GTK2 and GTK3 Configurator for KDE |
-| kdeconnect | Adds communication between KDE and your smartphone |
-| kdialog | A utility for displaying dialog boxes from shell scripts |
-| kmail | KDE mail client |
-| kontact | KDE Personal Information Manager |
-| korganizer | Calendar and scheduling Program |
-| ksystemlog | System log viewer tool |
-| kwallet-pam | KWallet PAM integration |
-| kwalletmanager | Wallet management tool |
-| lazygit | Simple terminal UI for git commands |
-| libnotify | Library for sending desktop notifications |
-| linux | The Linux kernel and modules |
-| linux-firmware | Firmware files for Linux |
-| linux-headers | Headers and scripts for building modules for the Linux kernel |
-| man-db | A utility for reading man pages |
-| neovim | Fork of Vim aiming to improve user experience, plugins, and GUIs |
-| npm | A package manager for JavaScript |
-| ntfs-3g | NTFS filesystem driver and utilities |
-| okular | Document Viewer |
-| os-prober | Utility to detect other OSes on a set of drives |
-| p7zip | Command-line file archiver with high compression ratio |
-| paru | Feature packed AUR helper |
-| plasma-desktop | KDE Plasma Desktop |
-| plasma-nm | Plasma applet written in QML for managing network connections |
-| plasma-pa | Plasma applet for audio volume management using PulseAudio |
-| plasma-systemmonitor | An interface for monitoring system sensors, process information and other system resources |
-| plasma-wayland-session | Plasma Wayland session |
-| ripgrep | A search tool that combines the usability of ag with the raw speed of grep |
-| sddm-kcm | KDE Config Module for SDDM |
-| spectacle | KDE screenshot capture utility |
-| telegram-desktop | Official Telegram Desktop client |
-| tree | A directory listing program displaying a depth indented list of files |
-| ttf-firacode-nerd | Patched font Fira (Fura) Code from nerd fonts library |
-| ttf-twemoji | Truetype builds of Twemoji; Twitter Color Emoji for everyone. |
-| unzip | For extracting and viewing files in .zip archives |
-| visual-studio-code-bin | Visual Studio Code (vscode) |
-| wget | Network utility to retrieve files from the Web |
-| wl-clipboard | Command-line copy/paste utilities for Wayland |
-| xdg-desktop-portal-kde | A backend implementation for xdg-desktop-portal using Qt/KF5 |
-| yakuake | A drop-down terminal emulator based on KDE konsole technology |
-| yazi-git | Blazing fast terminal file manager written in Rust, based on async I/O. |
-| zsh | A very advanced and programmable command interpreter (shell) for UNIX |
