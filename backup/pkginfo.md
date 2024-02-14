@@ -6,16 +6,16 @@
 | ------- | ---- |
 | adobe-source-han-sans-otc-fonts | Adobe Source Han Sans - A set of Pan-CJK fonts designed to complement Source Sans Pro |
 | adobe-source-han-serif-otc-fonts | Adobe Source Han Serif - Pan-CJK OpenType/CFF Collection fonts |
-| akregator | A Feed Reader by KDE |
 | archlinuxcn-keyring | Arch Linux CN PGP keyring |
+| akregator | A Feed Reader by KDE |
 | aria2 | Download utility that supports HTTP(S), FTP, BitTorrent, and Metalink |
 | ark | Archiving Tool |
 | base | Minimal package set to define a basic Arch Linux installation |
 | base-devel | Basic tools to build Arch Linux packages |
-| breeze-gtk | Breeze widget theme for GTK 2 and 3 |
 | bat | Cat clone with syntax highlighting and git integration |
-| btrfs-progs | Btrfs filesystem utilities |
 | bluedevil | Integrate the Bluetooth technology within KDE workspace and applications |
+| breeze-gtk | Breeze widget theme for GTK 2 and 3 |
+| btrfs-progs | Btrfs filesystem utilities |
 | clang | C language family frontend for LLVM |
 | compsize | Calculate compression ratio of a set of files on Btrfs |
 | ctex-windows-fonts | ctex-fontset-windows.def预设字体，中易字库+微软雅黑 |
@@ -28,14 +28,14 @@
 | fastfetch | Like Neofetch, but much faster because written in C |
 | fcitx5 | Next generation of fcitx |
 | fcitx5-chinese-addons | Addons related to Chinese, including IME previous bundled inside fcitx4 |
-| fcitx5-configtool | Configuration Tool for Fcitx5 |
-| fcitx5-gtk | Fcitx5 gtk im module and glib based dbus client library |
 | fcitx5-pinyin-moegirl | Fcitx 5 Pinyin Dictionary from zh.moegirl.org.cn |
 | fcitx5-pinyin-zhwiki | Fcitx 5 Pinyin Dictionary from zh.wikipedia.org |
+| fcitx5-gtk | Fcitx5 gtk im module and glib based dbus client library |
+| fcitx5-configtool | Configuration Tool for Fcitx5 |
 | fcitx5-qt | Fcitx5 Qt Library (Qt5 & Qt6 integrations) |
 | fd | Simple, fast and user-friendly alternative to find |
-| fzf | Command-line fuzzy finder |
 | firefox | Standalone web browser from mozilla.org |
+| fzf | Command-line fuzzy finder |
 | git | the fast distributed version control system |
 | github-cli | The GitHub CLI |
 | go | Core compiler tools for the Go programming language |
@@ -45,17 +45,17 @@
 | intel-media-driver | Intel Media Driver for VAAPI — Broadwell+ iGPUs |
 | intel-ucode | Microcode update files for Intel CPUs |
 | iwd | Internet Wireless Daemon |
-| kaddressbook | KDE contact manager |
 | jq | Command-line JSON processor |
 | kate | Advanced text editor |
+| kaddressbook | KDE contact manager |
 | kcron | Configure and schedule tasks |
 | kde-gtk-config | GTK2 and GTK3 Configurator for KDE |
-| kdeconnect | Adds communication between KDE and your smartphone |
 | kdialog | A utility for displaying dialog boxes from shell scripts |
+| kdeconnect | Adds communication between KDE and your smartphone |
 | kmail | KDE mail client |
 | kontact | KDE Personal Information Manager |
-| ksystemlog | System log viewer tool |
 | korganizer | Calendar and scheduling Program |
+| ksystemlog | System log viewer tool |
 | kwallet-pam | KWallet PAM integration |
 | kwalletmanager | Wallet management tool |
 | libnotify | Library for sending desktop notifications |
@@ -65,8 +65,8 @@
 | linux-headers | Headers and scripts for building modules for the Linux kernel |
 | man-db | A utility for reading man pages |
 | neovim | Fork of Vim aiming to improve user experience, plugins, and GUIs |
-| ntfs-3g | NTFS filesystem driver and utilities |
 | npm | A package manager for JavaScript |
+| ntfs-3g | NTFS filesystem driver and utilities |
 | okular | Document Viewer |
 | os-prober | Utility to detect other OSes on a set of drives |
 | p7zip | Command-line file archiver with high compression ratio |
@@ -77,8 +77,8 @@
 | plasma-pa | Plasma applet for audio volume management using PulseAudio |
 | plasma-systemmonitor | An interface for monitoring system sensors, process information and other system resources |
 | plasma-wayland-session | Plasma Wayland session |
-| ripgrep | A search tool that combines the usability of ag with the raw speed of grep |
 | sddm-kcm | KDE Config Module for SDDM |
+| ripgrep | A search tool that combines the usability of ag with the raw speed of grep |
 | spectacle | KDE screenshot capture utility |
 | telegram-desktop | Official Telegram Desktop client |
 | tree | A directory listing program displaying a depth indented list of files |
