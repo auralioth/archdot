@@ -2,9 +2,11 @@
 
 # 更新系统 explicitly installed packages
 # 包信息存储在 $backupDir
-# 每次运行用 kdialog 来通知增加、移除和未改变三种状态
+# 每次运行用 notify-send 来通知增加、移除和未改变三种状态
 
 set -e
+
+export DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/$(id -u $USER)/bus
 
 cacheDir="$HOME/.cache"
 backupDir="$HOME/.dotfile/backup"
@@ -37,20 +39,37 @@ fi
 mv "$cacheDir/current_packages.txt" "$cacheDir/previous_packages.txt"
 
 if [ -s "$cacheDir/added_packages.txt" ]; then
-	added_packages=$(awk '{printf "<u>%s</u>\n", $0}' "$cacheDir/added_packages.txt")
-	kdialog --title "软件包添加通知" --passivepopup "已添加的软件包:\n$added_packages" 5 --icon "package-install"
+	added_packages=$(awk '{printf "%s\n", $0}' "$cacheDir/added_packages.txt")
+	notify-send -u normal \
+		-i "package-install" \
+		-a "kcron" \
+		"软件包添加：" \
+		"$added_packages"
 fi
 
 if [ -s "$cacheDir/removed_packages.txt" ]; then
-	removed_packages=$(awk '{printf "<u>%s</u>\n", $0}' "$cacheDir/removed_packages.txt")
-	kdialog --title "软件包删除通知" --passivepopup "已删除的软件包:\n$removed_packages" 5 --icon "package-remove"
+	removed_packages=$(awk '{printf "%s\n", $0}' "$cacheDir/removed_packages.txt")
+	notify-send -u normal \
+		-i "package-remove" \
+		-a "kcron" \
+		"软件包移除" \
+		"$removed_packages"
 fi
 
 if [ ! -s "$cacheDir/added_packages.txt" ] && [ ! -s "$cacheDir/removed_packages.txt" ]; then
-	kdialog --title "cron脚本运行通知" --passivepopup "脚本(pkginfo.sh)已运行，未检测到软件包变更" 5 --icon "dialog-scripts"
+	notify-send -u normal \
+		-i "dialog-scripts" \
+		-a "kcron" \
+		"pkginfo.sh 运行" \
+		"未检测到软件包变更"
 fi
 
-while read -r package; do
+get_package_description() {
+	package="$1"
 	description=$(LANG=C paru -Qi "$package" | awk -F': ' '/^Description/ {print $2}')
-	echo "| $package | $description |" >>"$pkginfo"
-done < <(paru -Qe | awk '{print $1}')
+	echo "| $package | $description |"
+}
+
+export -f get_package_description
+
+paru -Qe | awk '{print $1}' | parallel -j 4 get_package_description {} >>"$pkginfo"

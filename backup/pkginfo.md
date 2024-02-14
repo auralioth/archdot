@@ -4,3 +4,90 @@
 
 | 软件包 | 描述 |
 | ------- | ---- |
+| adobe-source-han-serif-otc-fonts | Adobe Source Han Serif - Pan-CJK OpenType/CFF Collection fonts |
+| adobe-source-han-sans-otc-fonts | Adobe Source Han Sans - A set of Pan-CJK fonts designed to complement Source Sans Pro |
+| akregator | A Feed Reader by KDE |
+| archlinuxcn-keyring | Arch Linux CN PGP keyring |
+| ark | Archiving Tool |
+| aria2 | Download utility that supports HTTP(S), FTP, BitTorrent, and Metalink |
+| base | Minimal package set to define a basic Arch Linux installation |
+| base-devel | Basic tools to build Arch Linux packages |
+| bat | Cat clone with syntax highlighting and git integration |
+| breeze-gtk | Breeze widget theme for GTK 2 and 3 |
+| bluedevil | Integrate the Bluetooth technology within KDE workspace and applications |
+| btrfs-progs | Btrfs filesystem utilities |
+| compsize | Calculate compression ratio of a set of files on Btrfs |
+| clang | C language family frontend for LLVM |
+| dae-git | A Linux lightweight and high-performance transparent proxy solution based on eBPF. |
+| dae-rules-dat | Route rules for dae |
+| dhcpcd | DHCP/ IPv4LL/ IPv6RA/ DHCPv6 client |
+| dolphin | KDE File Manager |
+| efibootmgr | Linux user-space application to modify the EFI Boot Manager |
+| expac | alpm data (pacman database) extraction utility |
+| fastfetch | Like Neofetch, but much faster because written in C |
+| fcitx5 | Next generation of fcitx |
+| fcitx5-configtool | Configuration Tool for Fcitx5 |
+| fcitx5-chinese-addons | Addons related to Chinese, including IME previous bundled inside fcitx4 |
+| fcitx5-pinyin-moegirl | Fcitx 5 Pinyin Dictionary from zh.moegirl.org.cn |
+| fcitx5-gtk | Fcitx5 gtk im module and glib based dbus client library |
+| fcitx5-pinyin-zhwiki | Fcitx 5 Pinyin Dictionary from zh.wikipedia.org |
+| fcitx5-qt | Fcitx5 Qt Library (Qt5 & Qt6 integrations) |
+| fd | Simple, fast and user-friendly alternative to find |
+| fzf | Command-line fuzzy finder |
+| firefox | Standalone web browser from mozilla.org |
+| git | the fast distributed version control system |
+| github-cli | The GitHub CLI |
+| go | Core compiler tools for the Go programming language |
+| gwenview | A fast and easy to use image viewer |
+| grub | GNU GRand Unified Bootloader (2) |
+| inetutils | A collection of common network programs |
+| intel-media-driver | Intel Media Driver for VAAPI — Broadwell+ iGPUs |
+| intel-ucode | Microcode update files for Intel CPUs |
+| iwd | Internet Wireless Daemon |
+| jq | Command-line JSON processor |
+| kaddressbook | KDE contact manager |
+| kate | Advanced text editor |
+| kcron | Configure and schedule tasks |
+| kde-gtk-config | GTK2 and GTK3 Configurator for KDE |
+| kdeconnect | Adds communication between KDE and your smartphone |
+| kdialog | A utility for displaying dialog boxes from shell scripts |
+| kmail | KDE mail client |
+| kontact | KDE Personal Information Manager |
+| ksystemlog | System log viewer tool |
+| korganizer | Calendar and scheduling Program |
+| kwallet-pam | KWallet PAM integration |
+| kwalletmanager | Wallet management tool |
+| lazygit | Simple terminal UI for git commands |
+| libnotify | Library for sending desktop notifications |
+| linux | The Linux kernel and modules |
+| linux-firmware | Firmware files for Linux |
+| linux-headers | Headers and scripts for building modules for the Linux kernel |
+| man-db | A utility for reading man pages |
+| neovim | Fork of Vim aiming to improve user experience, plugins, and GUIs |
+| npm | A package manager for JavaScript |
+| ntfs-3g | NTFS filesystem driver and utilities |
+| os-prober | Utility to detect other OSes on a set of drives |
+| okular | Document Viewer |
+| p7zip | Command-line file archiver with high compression ratio |
+| parallel | A shell tool for executing jobs in parallel |
+| paru | Feature packed AUR helper |
+| plasma-desktop | KDE Plasma Desktop |
+| plasma-nm | Plasma applet written in QML for managing network connections |
+| plasma-pa | Plasma applet for audio volume management using PulseAudio |
+| plasma-systemmonitor | An interface for monitoring system sensors, process information and other system resources |
+| plasma-wayland-session | Plasma Wayland session |
+| ripgrep | A search tool that combines the usability of ag with the raw speed of grep |
+| sddm-kcm | KDE Config Module for SDDM |
+| spectacle | KDE screenshot capture utility |
+| telegram-desktop | Official Telegram Desktop client |
+| tree | A directory listing program displaying a depth indented list of files |
+| ttf-firacode-nerd | Patched font Fira (Fura) Code from nerd fonts library |
+| ttf-twemoji | Truetype builds of Twemoji; Twitter Color Emoji for everyone. |
+| unzip | For extracting and viewing files in .zip archives |
+| visual-studio-code-bin | Visual Studio Code (vscode) |
+| wget | Network utility to retrieve files from the Web |
+| wl-clipboard | Command-line copy/paste utilities for Wayland |
+| xdg-desktop-portal-kde | A backend implementation for xdg-desktop-portal using Qt/KF5 |
+| yakuake | A drop-down terminal emulator based on KDE konsole technology |
+| yazi-git | Blazing fast terminal file manager written in Rust, based on async I/O. |
+| zsh | A very advanced and programmable command interpreter (shell) for UNIX |
