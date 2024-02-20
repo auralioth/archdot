@@ -44,7 +44,6 @@
 | gtk4 | GObject-based multi-platform GUI toolkit |
 | gwenview | A fast and easy to use image viewer |
 | inetutils | A collection of common network programs |
-| intel-gpu-tools | Tools for development and testing of the Intel DRM driver |
 | intel-media-driver | Intel Media Driver for VAAPI — Broadwell+ iGPUs |
 | intel-ucode | Microcode update files for Intel CPUs |
 | iwd | Internet Wireless Daemon |
@@ -58,6 +57,7 @@
 | kmail | KDE mail client |
 | kontact | KDE Personal Information Manager |
 | korganizer | Calendar and scheduling Program |
+| kscreen | KDE screen management software |
 | ksystemlog | System log viewer tool |
 | kwallet-pam | KWallet PAM integration |
 | kwalletmanager | Wallet management tool |
@@ -77,6 +77,7 @@
 | paru | Feature packed AUR helper |
 | plasma-browser-integration | Components necessary to integrate browsers into the Plasma Desktop |
 | plasma-desktop | KDE Plasma Desktop |
+| plasma-disks | Monitors S.M.A.R.T. capable devices for imminent failure |
 | plasma-nm | Plasma applet written in QML for managing network connections |
 | plasma-pa | Plasma applet for audio volume management using PulseAudio |
 | plasma-systemmonitor | An interface for monitoring system sensors, process information and other system resources |
@@ -96,7 +97,6 @@
 | wget | Network utility to retrieve files from the Web |
 | wl-clipboard | Command-line copy/paste utilities for Wayland |
 | xdg-desktop-portal-kde | A backend implementation for xdg-desktop-portal using Qt/KF5 |
-| xorg-xwininfo | Command-line utility to print information about windows on an X server |
 | yakuake | A drop-down terminal emulator based on KDE konsole technology |
 | yazi-git | Blazing fast terminal file manager written in Rust, based on async I/O. |
 | zsh | A very advanced and programmable command interpreter (shell) for UNIX |
