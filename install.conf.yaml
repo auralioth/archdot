@@ -11,9 +11,11 @@
     ~/.config/paru:
     ~/.config/clangd:
     ~/.config/code-flags.conf:
+    ~/.config/chrome-flags.conf:
     ~/.gitconfig:
     ~/.zshenv:
     ~/.latexmkrc:
+    ~/.local/share/icons/default: icons/default
     ~/bin:
 
 - create:

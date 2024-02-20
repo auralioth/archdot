@@ -39,9 +39,12 @@
 | git | the fast distributed version control system |
 | github-cli | The GitHub CLI |
 | go | Core compiler tools for the Go programming language |
+| google-chrome | The popular web browser by Google (Stable Channel) |
 | grub | GNU GRand Unified Bootloader (2) |
+| gtk4 | GObject-based multi-platform GUI toolkit |
 | gwenview | A fast and easy to use image viewer |
 | inetutils | A collection of common network programs |
+| intel-gpu-tools | Tools for development and testing of the Intel DRM driver |
 | intel-media-driver | Intel Media Driver for VAAPI — Broadwell+ iGPUs |
 | intel-ucode | Microcode update files for Intel CPUs |
 | iwd | Internet Wireless Daemon |
@@ -72,23 +75,28 @@
 | p7zip | Command-line file archiver with high compression ratio |
 | parallel | A shell tool for executing jobs in parallel |
 | paru | Feature packed AUR helper |
+| plasma-browser-integration | Components necessary to integrate browsers into the Plasma Desktop |
 | plasma-desktop | KDE Plasma Desktop |
 | plasma-nm | Plasma applet written in QML for managing network connections |
 | plasma-pa | Plasma applet for audio volume management using PulseAudio |
 | plasma-systemmonitor | An interface for monitoring system sensors, process information and other system resources |
 | plasma-wayland-session | Plasma Wayland session |
+| pot-translation | 一个跨平台的划词翻译软件 | A cross-platform software for text translation. |
 | ripgrep | A search tool that combines the usability of ag with the raw speed of grep |
 | sddm-kcm | KDE Config Module for SDDM |
 | spectacle | KDE screenshot capture utility |
 | telegram-desktop | Official Telegram Desktop client |
+| tesseract-data-chi_sim | Tesseract OCR data (chi_sim) |
 | tree | A directory listing program displaying a depth indented list of files |
-| ttf-firacode-nerd | Patched font Fira (Fura) Code from nerd fonts library |
+| ttf-fira-code | Monospaced font with programming ligatures |
+| ttf-nerd-fonts-symbols-mono | High number of extra glyphs from popular 'iconic fonts' (monospace) |
 | ttf-twemoji | Truetype builds of Twemoji; Twitter Color Emoji for everyone. |
 | unzip | For extracting and viewing files in .zip archives |
 | visual-studio-code-bin | Visual Studio Code (vscode) |
 | wget | Network utility to retrieve files from the Web |
 | wl-clipboard | Command-line copy/paste utilities for Wayland |
 | xdg-desktop-portal-kde | A backend implementation for xdg-desktop-portal using Qt/KF5 |
+| xorg-xwininfo | Command-line utility to print information about windows on an X server |
 | yakuake | A drop-down terminal emulator based on KDE konsole technology |
 | yazi-git | Blazing fast terminal file manager written in Rust, based on async I/O. |
 | zsh | A very advanced and programmable command interpreter (shell) for UNIX |
