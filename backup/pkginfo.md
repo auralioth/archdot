@@ -7,6 +7,7 @@
 | adobe-source-han-sans-otc-fonts | Adobe Source Han Sans - A set of Pan-CJK fonts designed to complement Source Sans Pro |
 | adobe-source-han-serif-otc-fonts | Adobe Source Han Serif - Pan-CJK OpenType/CFF Collection fonts |
 | akregator | A Feed Reader by KDE |
+| android-tools | Android platform tools |
 | archlinuxcn-keyring | Arch Linux CN PGP keyring |
 | aria2 | Download utility that supports HTTP(S), FTP, BitTorrent, and Metalink |
 | ark | Archiving Tool |
@@ -90,7 +91,6 @@
 | tesseract-data-chi_sim | Tesseract OCR data (chi_sim) |
 | tree | A directory listing program displaying a depth indented list of files |
 | ttf-fira-code | Monospaced font with programming ligatures |
-| ttf-nerd-fonts-symbols-mono | High number of extra glyphs from popular 'iconic fonts' (monospace) |
 | ttf-twemoji | Truetype builds of Twemoji; Twitter Color Emoji for everyone. |
 | unzip | For extracting and viewing files in .zip archives |
 | visual-studio-code-bin | Visual Studio Code (vscode) |
@@ -98,5 +98,5 @@
 | wl-clipboard | Command-line copy/paste utilities for Wayland |
 | xdg-desktop-portal-kde | A backend implementation for xdg-desktop-portal using Qt/KF5 |
 | yakuake | A drop-down terminal emulator based on KDE konsole technology |
-| yazi-git | Blazing fast terminal file manager written in Rust, based on async I/O. |
+| yazi | Blazing fast terminal file manager written in Rust, based on async I/O |
 | zsh | A very advanced and programmable command interpreter (shell) for UNIX |
