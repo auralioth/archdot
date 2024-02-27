@@ -18,6 +18,7 @@
 | breeze-gtk | Breeze widget theme for GTK 2 and 3 |
 | btrfs-progs | Btrfs filesystem utilities |
 | clang | C language family frontend for LLVM |
+| clash-verge | A Clash Meta GUI based on Tauri, Continuation of Clash Verge |
 | compsize | Calculate compression ratio of a set of files on Btrfs |
 | ctex-windows-fonts | ctex-fontset-windows.def预设字体，中易字库+微软雅黑 |
 | dae-git | A Linux lightweight and high-performance transparent proxy solution based on eBPF. |
@@ -92,11 +93,13 @@
 | tree | A directory listing program displaying a depth indented list of files |
 | ttf-fira-code | Monospaced font with programming ligatures |
 | ttf-twemoji | Truetype builds of Twemoji; Twitter Color Emoji for everyone. |
+| tunet-rust | A Tsinghua University network authentication client for Linux, written in Rust. 清华大学校园网 Rust 客户端 |
 | unzip | For extracting and viewing files in .zip archives |
-| visual-studio-code-bin | Visual Studio Code (vscode) |
 | wget | Network utility to retrieve files from the Web |
 | wl-clipboard | Command-line copy/paste utilities for Wayland |
+| xdg-desktop-portal-gtk | A backend implementation for xdg-desktop-portal using GTK |
 | xdg-desktop-portal-kde | A backend implementation for xdg-desktop-portal using Qt/KF5 |
+| xorg-xwininfo | Command-line utility to print information about windows on an X server |
 | yakuake | A drop-down terminal emulator based on KDE konsole technology |
 | yazi | Blazing fast terminal file manager written in Rust, based on async I/O |
 | zsh | A very advanced and programmable command interpreter (shell) for UNIX |
