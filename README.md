@@ -24,3 +24,8 @@ DefaultTimeoutStopSec=10s
 ## 5. 休眠
 
 参考 [Suspend_and_hibernate#Hibernation](https://wiki.archlinux.org/title/Power_management/Suspend_and_hibernate#Hibernation)
+
+
+## 6. 传统接口名称
+
+参考 [Revert_to_traditional_interface_names](https://wiki.archlinux.org/title/Network_configuration#Revert_to_traditional_interface_names)

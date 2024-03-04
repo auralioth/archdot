@@ -6,16 +6,14 @@
 - clean: ["~", "~/.config"]
 - link:
     ~/.config/fontconfig:
-    ~/.config/shell:
     ~/.config/nvim:
     ~/.config/paru:
     ~/.config/clangd:
     ~/.config/code-flags.conf:
     ~/.config/chrome-flags.conf:
     ~/.gitconfig:
-    ~/.zshenv:
     ~/.latexmkrc:
-    ~/.local/share/icons/default: icons/default
+    # ~/.local/share/icons/default: icons/default
     ~/bin:
 
 - create:
