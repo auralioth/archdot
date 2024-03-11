@@ -11,8 +11,12 @@
     ~/.config/clangd:
     ~/.config/code-flags.conf:
     ~/.config/chrome-flags.conf:
+    ~/.config/yazi:
+    ~/.config/fish:
     ~/.gitconfig:
     ~/.latexmkrc:
+    ~/.bashrc:
+    ~/.bash_profile:
     # ~/.local/share/icons/default: icons/default
     ~/bin:
 

@@ -1,0 +1,41 @@
+[opener]
+edit = [
+	{ run = '${EDITOR:=vi} "$@"', desc = "$EDITOR", block = true, for = "linux" },
+	{ run = 'code "$@"',    orphan = true, desc = "code",         for = "linux" },
+	{ run = 'code -w "$@"', block = true,  desc = "code (block)", for = "linux" },
+]
+open = [
+	{ run = 'xdg-open "$@"', orphan = true, desc = "Open", for = "linux" },
+]
+extract = [
+	{ run = 'ark "$1"', desc = "Extract here", for = "linux" },
+]
+play = [
+	{ run = 'mpv "$@"', orphan = true, for = "linux" },
+	{ run = '''ffprobe "$1"; echo "Press enter to exit"; read _''', block = true, desc = "Show media info", for = "linux" },
+]
+
+[open]
+rules = [
+	{ name = "*/", use = [ "edit", "open" ] },
+
+	{ mime = "text/*",  use = [ "edit" ] },
+	{ mime = "image/*", use = [ "open" ] },
+	{ mime = "video/*", use = [ "play" ] },
+	{ mime = "audio/*", use = [ "play" ] },
+	{ mime = "inode/x-empty", use = [ "edit" ] },
+
+	{ mime = "application/json", use = [ "edit" ] },
+	{ mime = "*/javascript",     use = [ "edit" ] },
+
+	{ mime = "application/zip",             use = [ "extract" ] },
+	{ mime = "application/gzip",            use = [ "extract" ] },
+	{ mime = "application/x-tar",           use = [ "extract" ] },
+	{ mime = "application/x-bzip",          use = [ "extract" ] },
+	{ mime = "application/x-bzip2",         use = [ "extract" ] },
+	{ mime = "application/x-7z-compressed", use = [ "extract" ] },
+	{ mime = "application/x-rar",           use = [ "extract" ] },
+	{ mime = "application/xz",              use = [ "extract" ] },
+
+	{ mime = "*", use = [ "open" ] },
+]
