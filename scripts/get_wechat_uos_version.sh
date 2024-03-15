@@ -2,6 +2,7 @@
 
 cd "$(dirname "$0")" || exit
 
+# Get from `https://aur.archlinux.org/cgit/aur.git/tree/fetch_uos_wechat_release.py?h=wechat-universal-bwrap`
 url="https://pro-store-packages.uniontech.com/appstore/dists/eagle/appstore/binary-amd64/Packages.gz"
 
 target_package="com.tencent.wechat"
