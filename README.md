@@ -15,10 +15,7 @@
 ## 4. 关机结束进程
 
 ```bash
-$ sudo mkdir /etc/systemd/system.conf.d
-$ sudoedit system.conf
-
-DefaultTimeoutStopSec=10s
+$ echo "DefaultTimeoutStopSec=10s" | sudo tee /etc/systemd/user.conf.d/timeoutstopsec.conf
 ```
 
 ## 5. 休眠

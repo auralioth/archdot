@@ -17,7 +17,6 @@
     ~/.latexmkrc:
     ~/.bashrc:
     ~/.bash_profile:
-    # ~/.local/share/icons/default: icons/default
     ~/bin:
 
 - create:
