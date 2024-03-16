@@ -90,6 +90,7 @@
 | ttf-nerd-fonts-symbols | High number of extra glyphs from popular 'iconic fonts' |
 | ttf-twemoji | Truetype builds of Twemoji; Twitter Color Emoji for everyone. |
 | tunet-rust-git | A Tsinghua University network authentication client for Linux, written in Rust. 清华大学校园网 Rust 客户端 |
+| unarchiver | unar and lsar |
 | visual-studio-code-bin | Visual Studio Code (vscode) |
 | wl-clipboard | Command-line copy/paste utilities for Wayland |
 | xorg-xwininfo | Command-line utility to print information about windows on an X server |
