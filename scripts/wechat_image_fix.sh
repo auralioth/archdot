@@ -7,8 +7,9 @@ if [[ "$(wl-paste -l)" =~ "application/x-mimedata-xwechat" ]] && [[ "$(wl-paste 
 	clip_image=$(wl-paste)
 	if [[ "$clip_image" =~ "$fake_path" ]]; then
 		real_image=$(echo "$clip_image" | sed "s|$fake_path|$real_path|")
+		echo "real $(file $real_image)"
 
-		wl-copy <"$real_image"
+		wl-copy -t "image/png" <"$real_image"
 		echo "wechat图像已替换"
 
 	fi
