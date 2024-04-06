@@ -63,7 +63,7 @@
 | man-db | A utility for reading man pages |
 | mpv | a free, open source, and cross-platform media player |
 | neochat | A client for matrix, the decentralized communication protocol |
-| neovim | Fork of Vim aiming to improve user experience, plugins, and GUIs |
+| neovim-git | Fork of Vim aiming to improve user experience, plugins, and GUIs |
 | npm | A package manager for JavaScript |
 | nvchecker-git | a tool for checking if a new version of some software has been released. |
 | openssh | SSH protocol implementation for remote login, command execution and file transfer |
