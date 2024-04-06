@@ -77,11 +77,13 @@
 | pot-translation-git | 一个跨平台的划词翻译软件 | A cross-platform software for text translation. |
 | power-profiles-daemon | Makes power profiles handling available over D-Bus |
 | powertop | A tool to diagnose issues with power consumption and power management |
+| pyenv | Easily switch between multiple versions of Python |
 | python | The Python programming language |
 | qt6-quick3d | Qt module and API for defining 3D content in Qt Quick |
 | ripgrep | A search tool that combines the usability of ag with the raw speed of grep |
 | strace | A diagnostic, debugging and instructional userspace tracer |
 | telegram-desktop | Official Telegram Desktop client |
+| tk | A windowing toolkit for use with tcl |
 | ttf-fira-code | Monospaced font with programming ligatures |
 | ttf-nerd-fonts-symbols | High number of extra glyphs from popular 'iconic fonts' |
 | ttf-twemoji | Truetype builds of Twemoji; Twitter Color Emoji for everyone. |

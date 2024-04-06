@@ -7,6 +7,10 @@ export XMODIFIERS=@im=fcitx
 
 export EDITOR=nvim
 
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+
 if [ -d "$HOME/bin" ]; then
 	export PATH="$PATH:$HOME/bin"
 fi
