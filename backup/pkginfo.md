@@ -4,7 +4,6 @@
 
 | 软件包 | 描述 |
 | ------- | ---- |
-| act | Run your GitHub Actions locally |
 | adobe-source-han-sans-otc-fonts | Adobe Source Han Sans - Pan-CJK OpenType/CFF Collection fonts |
 | adobe-source-han-serif-otc-fonts | Adobe Source Han Serif - Pan-CJK OpenType/CFF Collection fonts |
 | archlinuxcn-keyring | Arch Linux CN PGP keyring |
@@ -38,11 +37,9 @@
 | firefox | Standalone web browser from mozilla.org |
 | fish | Smart and user friendly shell intended mostly for interactive use |
 | flatpak-kcm | Flatpak Permissions Management KCM |
-| freerdp | Free implementation of the Remote Desktop Protocol (RDP) |
 | fzf | Command-line fuzzy finder |
 | git | the fast distributed version control system |
 | github-cli | The GitHub CLI |
-| go | Core compiler tools for the Go programming language |
 | google-chrome | The popular web browser by Google (Stable Channel) |
 | grub | GNU GRand Unified Bootloader (2) |
 | htop | Interactive process viewer |
@@ -59,7 +56,6 @@
 | krfb | Desktop Sharing |
 | lazygit | Simple terminal UI for git commands |
 | less | A terminal based program for viewing text files |
-| libc++ | LLVM C++ standard library. |
 | libva-utils | Intel VA-API Media Applications and Scripts for libva |
 | linux | The Linux kernel and modules |
 | linux-firmware | Firmware files for Linux |
