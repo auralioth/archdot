@@ -1,22 +1,38 @@
 CompileFlags:
   Add:
-    [
-      -pedantic-errors,
-      -Wall,
-      -Weffc++,
-      -Wextra,
-      -Wconversion,
-      -Werror,
-    ]
+    - -pedantic-errors
+    - -Werror
+    - -Wall
+    - -Weffc++
+    - -Wextra
+    - -Wconversion
 
 Diagnostics:
   ClangTidy:
     Add:
-      [
-        bugprone-*,
-        clang-analyzer-*,
-        modernize-*,
-        performance-*,
-        portability-*,
-        readability-*,
-      ]
+      - bugprone-*
+      - clang-analyzer-*
+      - modernize-*
+      - performance-*
+      - portability-*
+      - readability-*
+  UnusedIncludes: Strict
+  MissingIncludes: Strict
+---
+If:
+  PathMatch:
+    - .*\.c
+    - .*\.h
+CompileFlags:
+  Add:
+    - -std=c17
+  Compiler: clang
+---
+If:
+  PathMatch:
+    - .*\.cpp
+    - .*\.hpp
+CompileFlags:
+  Add:
+    - -std=c++23
+  Compiler: clang++

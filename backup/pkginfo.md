@@ -16,6 +16,7 @@
 | breeze5 | Qt5 Breeze style |
 | btrfs-progs | Btrfs filesystem utilities |
 | clang | C language family frontend for LLVM |
+| cmake | A cross-platform open-source make system |
 | ctex-windows-fonts | ctex-fontset-windows.def预设字体，中易字库+微软雅黑 |
 | dae-git | A Linux lightweight and high-performance transparent proxy solution based on eBPF. |
 | dae-rules-dat | Route rules for dae |
@@ -37,6 +38,7 @@
 | firefox | Standalone web browser from mozilla.org |
 | fish | Smart and user friendly shell intended mostly for interactive use |
 | flatpak-kcm | Flatpak Permissions Management KCM |
+| freerdp2 | Free implementation of the Remote Desktop Protocol (RDP) |
 | fzf | Command-line fuzzy finder |
 | git | the fast distributed version control system |
 | github-cli | The GitHub CLI |
@@ -52,6 +54,7 @@
 | kde-system-meta | Meta package for KDE system applications |
 | kde-utilities-meta | Meta package for KDE utilities applications |
 | kdeconnect | Adds communication between KDE and your smartphone |
+| kdepim-runtime | Extends the functionality of kdepim |
 | krdc | Remote Desktop Client |
 | krfb | Desktop Sharing |
 | lazygit | Simple terminal UI for git commands |
@@ -60,6 +63,7 @@
 | linux | The Linux kernel and modules |
 | linux-firmware | Firmware files for Linux |
 | linux-headers | Headers and scripts for building modules for the Linux kernel |
+| llvm-libs | LLVM runtime libraries |
 | man-db | A utility for reading man pages |
 | mpv | a free, open source, and cross-platform media player |
 | neochat | A client for matrix, the decentralized communication protocol |
