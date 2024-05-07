@@ -6,6 +6,7 @@
 | ------- | ---- |
 | adobe-source-han-sans-otc-fonts | Adobe Source Han Sans - Pan-CJK OpenType/CFF Collection fonts |
 | adobe-source-han-serif-otc-fonts | Adobe Source Han Serif - Pan-CJK OpenType/CFF Collection fonts |
+| android-tools | Android platform tools |
 | archlinuxcn-keyring | Arch Linux CN PGP keyring |
 | aria2-fast | Aria2 Download utility with little patch to maximize aria2 download speed |
 | ariang-allinone | A modern web frontend making aria2 easier to use (all-in-one version) |
@@ -54,7 +55,6 @@
 | kde-system-meta | Meta package for KDE system applications |
 | kde-utilities-meta | Meta package for KDE utilities applications |
 | kdeconnect | Adds communication between KDE and your smartphone |
-| kdepim-runtime | Extends the functionality of kdepim |
 | krdc | Remote Desktop Client |
 | krfb | Desktop Sharing |
 | lazygit | Simple terminal UI for git commands |
