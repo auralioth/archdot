@@ -7,6 +7,9 @@ export XMODIFIERS=@im=fcitx
 
 export EDITOR=nvim
 
+# TinyTeX ctex can not find Chinese fonts
+export OSFONTDIR=/usr/local/share/fonts
+
 export PYENV_ROOT="$HOME/.pyenv"
 [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
