@@ -35,7 +35,7 @@
 | fd | Simple, fast and user-friendly alternative to find |
 | ffmpegthumbnailer | Lightweight video thumbnailer that can be used by file managers |
 | ffmpegthumbs | FFmpeg-based thumbnail creator for video files |
-| firefox | Standalone web browser from mozilla.org |
+| firefox | Fast, Private & Safe Web Browser |
 | fish | Smart and user friendly shell intended mostly for interactive use |
 | flatpak-kcm | Flatpak Permissions Management KCM |
 | fzf | Command-line fuzzy finder |
