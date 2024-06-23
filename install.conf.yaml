@@ -7,7 +7,6 @@
 - link:
     ~/.config/fontconfig:
     ~/.config/nvim:
-    ~/.config/paru:
     ~/.config/clangd:
     ~/.config/code-flags.conf:
     ~/.config/chrome-flags.conf:
