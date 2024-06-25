@@ -4,7 +4,7 @@
 
 | 软件包 | 描述 |
 | ------- | ---- |
-| adobe-source-han-sans-otc-fonts | Adobe Source Han Sans - Pan-CJK OpenType/CFF Collection fonts |
+| adobe-source-han-sans-otc-fonts | Adobe Source Han Sans - A set of Pan-CJK fonts designed to complement Source Sans Pro |
 | adobe-source-han-serif-otc-fonts | Adobe Source Han Serif - Pan-CJK OpenType/CFF Collection fonts |
 | android-tools | Android platform tools |
 | archlinuxcn-keyring | Arch Linux CN PGP keyring |
@@ -18,8 +18,8 @@
 | btrfs-progs | Btrfs filesystem utilities |
 | clang | C language family frontend for LLVM |
 | cmake | A cross-platform open-source make system |
-| dae-git | A Linux lightweight and high-performance transparent proxy solution based on eBPF. |
-| dae-rules-dat | Route rules for dae |
+| daed | A modern dashboard for dae, bundled with dae-wing (backend API server) and dae (core). |
+| dhcpcd | DHCP/ IPv4LL/ IPv6RA/ DHCPv6 client |
 | dnsmasq | Lightweight, easy to configure DNS forwarder and DHCP server |
 | efibootmgr | Linux user-space application to modify the EFI Boot Manager |
 | ethtool | Utility for controlling network drivers and hardware |
@@ -47,6 +47,7 @@
 | intel-gpu-tools | Tools for development and testing of the Intel DRM driver |
 | intel-media-driver | Intel Media Driver for VAAPI — Broadwell+ iGPUs |
 | intel-ucode | Microcode update files for Intel CPUs |
+| iwd | Internet Wireless Daemon |
 | jq | Command-line JSON processor |
 | kde-graphics-meta | Meta package for KDE graphics applications |
 | kde-pim-meta | Meta package for KDE PIM applications |
@@ -59,10 +60,10 @@
 | linux | The Linux kernel and modules |
 | linux-firmware | Firmware files for Linux |
 | linux-headers | Headers and scripts for building modules for the Linux kernel |
-| llvm-libs | LLVM runtime libraries |
 | man-db | A utility for reading man pages |
 | mpv | a free, open source, and cross-platform media player |
 | neovim-git | Fork of Vim aiming to improve user experience, plugins, and GUIs |
+| networkmanager | Network connection manager and user applications |
 | npm | A package manager for JavaScript |
 | nvchecker-git | a tool for checking if a new version of some software has been released. |
 | openssh | SSH protocol implementation for remote login, command execution and file transfer |
@@ -77,8 +78,6 @@
 | power-profiles-daemon | Makes power profiles handling available over D-Bus |
 | powertop | A tool to diagnose issues with power consumption and power management |
 | pyenv | Easily switch between multiple versions of Python |
-| python | The Python programming language |
-| qt6-quick3d | Qt module and API for defining 3D content in Qt Quick |
 | ripgrep | A search tool that combines the usability of ag with the raw speed of grep |
 | strace | A diagnostic, debugging and instructional userspace tracer |
 | telegram-desktop | Official Telegram Desktop client |
@@ -86,7 +85,6 @@
 | ttf-fira-code | Monospaced font with programming ligatures |
 | ttf-nerd-fonts-symbols | High number of extra glyphs from popular 'iconic fonts' |
 | ttf-twemoji | Truetype builds of Twemoji; Twitter Color Emoji for everyone. |
-| tunet-rust-git | A Tsinghua University network authentication client for Linux, written in Rust. 清华大学校园网 Rust 客户端 |
 | unarchiver | unar and lsar |
 | unzip | For extracting and viewing files in .zip archives |
 | visual-studio-code-bin | Visual Studio Code (vscode) |
