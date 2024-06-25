@@ -16,6 +16,7 @@ Diagnostics:
       - performance-*
       - portability-*
       - readability-*
+    FastCheckFilter: Loose
   UnusedIncludes: Strict
   MissingIncludes: Strict
 ---

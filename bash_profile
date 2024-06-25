@@ -5,6 +5,8 @@ export XDG_STATE_HOME=$HOME/.local/state
 
 export XMODIFIERS=@im=fcitx
 
+export ELECTRON_OZONE_PLATFORM_HINT=auto
+
 export EDITOR=nvim
 
 # TinyTeX ctex can not find Chinese fonts

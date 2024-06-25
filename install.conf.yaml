@@ -8,10 +8,9 @@
     ~/.config/fontconfig:
     ~/.config/nvim:
     ~/.config/clangd:
-    ~/.config/code-flags.conf:
-    ~/.config/chrome-flags.conf:
     ~/.config/yazi:
     ~/.config/fish:
+    ~/.local/share/applications:
     ~/.gitconfig:
     ~/.latexmkrc:
     ~/.bashrc:
