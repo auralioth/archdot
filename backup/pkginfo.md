@@ -62,7 +62,7 @@
 | linux-headers | Headers and scripts for building modules for the Linux kernel |
 | man-db | A utility for reading man pages |
 | mpv | a free, open source, and cross-platform media player |
-| neovim-git | Fork of Vim aiming to improve user experience, plugins, and GUIs |
+| neovim | Fork of Vim aiming to improve user experience, plugins, and GUIs |
 | networkmanager | Network connection manager and user applications |
 | npm | A package manager for JavaScript |
 | nvchecker-git | a tool for checking if a new version of some software has been released. |
@@ -92,6 +92,7 @@
 | wl-clipboard | Command-line copy/paste utilities for Wayland |
 | wps-office-365 | WPS Office, is an office productivity suite. |
 | wps-office-365-fonts | WPS Office, is an office productivity suite. |
+| xorg-xlsclients | List client applications running on a display |
 | xorg-xwininfo | Command-line utility to print information about windows on an X server |
 | yazi | Blazing fast terminal file manager written in Rust, based on async I/O |
 | yt-dlp | A youtube-dl fork with additional features and fixes |
