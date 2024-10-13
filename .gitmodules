@@ -16,4 +16,4 @@
 	url = https://github.com/zsh-users/zsh-autosuggestions
 [submodule "nvim"]
 	path = nvim
-	url = git@github.com:auryouth/nvim.git
+	url = git@github.com:auralioth/nvim.git
