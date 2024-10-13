@@ -24,7 +24,7 @@
 | efibootmgr | Linux user-space application to modify the EFI Boot Manager |
 | ethtool | Utility for controlling network drivers and hardware |
 | expac | alpm data (pacman database) extraction utility |
-| fastfetch | Like Neofetch, but much faster because written in C |
+| fastfetch | An actively maintained, feature-rich and performance oriented, neofetch like system information tool |
 | fcitx5 | Next generation of fcitx |
 | fcitx5-chinese-addons | Addons related to Chinese, including IME previous bundled inside fcitx4 |
 | fcitx5-configtool | Configuration Tool for Fcitx5 |
@@ -61,18 +61,21 @@
 | linux-firmware | Firmware files for Linux |
 | linux-headers | Headers and scripts for building modules for the Linux kernel |
 | man-db | A utility for reading man pages |
+| meld | Compare files, directories and working copies |
 | mpv | a free, open source, and cross-platform media player |
 | neovim | Fork of Vim aiming to improve user experience, plugins, and GUIs |
 | networkmanager | Network connection manager and user applications |
-| npm | A package manager for JavaScript |
+| npm | JavaScript package manager |
 | nvchecker-git | a tool for checking if a new version of some software has been released. |
+| nvidia | NVIDIA drivers for linux |
+| nvidia-prime | NVIDIA Prime Render Offload configuration and utilities |
 | openssh | SSH protocol implementation for remote login, command execution and file transfer |
 | os-prober | Utility to detect other OSes on a set of drives |
 | p7zip | Command-line file archiver with high compression ratio |
 | pacman-contrib | Contributed scripts and tools for pacman systems |
 | parallel | A shell tool for executing jobs in parallel |
 | paru | Feature packed AUR helper |
-| pkgfile | a pacman .files metadata explorer |
+| pkgfile | alpm .files metadata explorer |
 | plasma-meta | Meta package to install KDE Plasma |
 | pot-translation-git | 一个跨平台的划词翻译软件 | A cross-platform software for text translation. |
 | power-profiles-daemon | Makes power profiles handling available over D-Bus |
