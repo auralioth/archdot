@@ -6,15 +6,14 @@
 | ------- | ---- |
 | adobe-source-han-sans-otc-fonts | Adobe Source Han Sans - A set of Pan-CJK fonts designed to complement Source Sans Pro |
 | adobe-source-han-serif-otc-fonts | Adobe Source Han Serif - Pan-CJK OpenType/CFF Collection fonts |
-| android-tools | Android platform tools |
 | archlinuxcn-keyring | Arch Linux CN PGP keyring |
 | aria2-fast | Aria2 Download utility with little patch to maximize aria2 download speed |
 | ariang-allinone | A modern web frontend making aria2 easier to use (all-in-one version) |
+| ark | Archiving Tool |
 | base | Minimal package set to define a basic Arch Linux installation |
 | base-devel | Basic tools to build Arch Linux packages |
 | bash-completion | Programmable completion for the bash shell |
 | bat | Cat clone with syntax highlighting and git integration |
-| breeze5 | Qt5 Breeze style |
 | btrfs-progs | Btrfs filesystem utilities |
 | clang | C language family frontend for LLVM |
 | cmake | A cross-platform open-source make system |
@@ -34,14 +33,10 @@
 | fcitx5-qt | Fcitx5 Qt Library (Qt5 & Qt6 integrations) |
 | fd | Simple, fast and user-friendly alternative to find |
 | ffmpegthumbnailer | Lightweight video thumbnailer that can be used by file managers |
-| ffmpegthumbs | FFmpeg-based thumbnail creator for video files |
 | firefox | Fast, Private & Safe Web Browser |
-| fish | Smart and user friendly shell intended mostly for interactive use |
-| flatpak-kcm | Flatpak Permissions Management KCM |
 | fzf | Command-line fuzzy finder |
 | git | the fast distributed version control system |
 | github-cli | The GitHub CLI |
-| google-chrome | The popular web browser by Google (Stable Channel) |
 | grub | GNU GRand Unified Bootloader (2) |
 | htop | Interactive process viewer |
 | intel-gpu-tools | Tools for development and testing of the Intel DRM driver |
@@ -49,11 +44,7 @@
 | intel-ucode | Microcode update files for Intel CPUs |
 | iwd | Internet Wireless Daemon |
 | jq | Command-line JSON processor |
-| kde-graphics-meta | Meta package for KDE graphics applications |
-| kde-pim-meta | Meta package for KDE PIM applications |
-| kde-system-meta | Meta package for KDE system applications |
-| kde-utilities-meta | Meta package for KDE utilities applications |
-| kdeconnect | Adds communication between KDE and your smartphone |
+| konsole | KDE terminal emulator |
 | lazygit | Simple terminal UI for git commands |
 | less | A terminal based program for viewing text files |
 | libva-utils | Intel VA-API Media Applications and Scripts for libva |
@@ -61,7 +52,6 @@
 | linux-firmware | Firmware files for Linux |
 | linux-headers | Headers and scripts for building modules for the Linux kernel |
 | man-db | A utility for reading man pages |
-| meld | Compare files, directories and working copies |
 | mpv | a free, open source, and cross-platform media player |
 | neovim | Fork of Vim aiming to improve user experience, plugins, and GUIs |
 | networkmanager | Network connection manager and user applications |
@@ -77,9 +67,7 @@
 | paru | Feature packed AUR helper |
 | pkgfile | alpm .files metadata explorer |
 | plasma-meta | Meta package to install KDE Plasma |
-| pot-translation-git | 一个跨平台的划词翻译软件 | A cross-platform software for text translation. |
 | power-profiles-daemon | Makes power profiles handling available over D-Bus |
-| powertop | A tool to diagnose issues with power consumption and power management |
 | pyenv | Easily switch between multiple versions of Python |
 | ripgrep | A search tool that combines the usability of ag with the raw speed of grep |
 | strace | A diagnostic, debugging and instructional userspace tracer |
@@ -90,11 +78,8 @@
 | ttf-twemoji | Truetype builds of Twemoji; Twitter Color Emoji for everyone. |
 | unarchiver | unar and lsar |
 | unzip | For extracting and viewing files in .zip archives |
-| visual-studio-code-bin | Visual Studio Code (vscode) |
 | wget | Network utility to retrieve files from the Web |
 | wl-clipboard | Command-line copy/paste utilities for Wayland |
-| wps-office-365 | WPS Office, is an office productivity suite. |
-| wps-office-365-fonts | WPS Office, is an office productivity suite. |
 | xorg-xlsclients | List client applications running on a display |
 | xorg-xwininfo | Command-line utility to print information about windows on an X server |
 | yazi | Blazing fast terminal file manager written in Rust, based on async I/O |
