@@ -4,24 +4,23 @@
 
 | 软件包 | 描述 |
 | ------- | ---- |
-| adobe-source-han-sans-otc-fonts | Adobe Source Han Sans - A set of Pan-CJK fonts designed to complement Source Sans Pro |
+| adobe-source-han-sans-otc-fonts | Adobe Source Han Sans - Pan-CJK OpenType/CFF Collection fonts |
 | adobe-source-han-serif-otc-fonts | Adobe Source Han Serif - Pan-CJK OpenType/CFF Collection fonts |
 | archlinuxcn-keyring | Arch Linux CN PGP keyring |
 | aria2-fast | Aria2 Download utility with little patch to maximize aria2 download speed |
-| ariang-allinone | A modern web frontend making aria2 easier to use (all-in-one version) |
 | ark | Archiving Tool |
 | base | Minimal package set to define a basic Arch Linux installation |
 | base-devel | Basic tools to build Arch Linux packages |
 | bash-completion | Programmable completion for the bash shell |
 | bat | Cat clone with syntax highlighting and git integration |
+| boost | Free peer-reviewed portable C++ source libraries (development headers) |
 | btrfs-progs | Btrfs filesystem utilities |
 | clang | C language family frontend for LLVM |
 | cmake | A cross-platform open-source make system |
-| daed | A modern dashboard for dae, bundled with dae-wing (backend API server) and dae (core). |
-| dhcpcd | DHCP/ IPv4LL/ IPv6RA/ DHCPv6 client |
+| daed-bin-x64-v3 | A modern dashboard for dae, bundled with dae-wing (backend API server) and dae (core). |
 | dnsmasq | Lightweight, easy to configure DNS forwarder and DHCP server |
+| dolphin | KDE File Manager |
 | efibootmgr | Linux user-space application to modify the EFI Boot Manager |
-| ethtool | Utility for controlling network drivers and hardware |
 | expac | alpm data (pacman database) extraction utility |
 | fastfetch | An actively maintained, feature-rich and performance oriented, neofetch like system information tool |
 | fcitx5 | Next generation of fcitx |
@@ -34,31 +33,28 @@
 | fd | Simple, fast and user-friendly alternative to find |
 | ffmpegthumbnailer | Lightweight video thumbnailer that can be used by file managers |
 | firefox | Fast, Private & Safe Web Browser |
+| flatpak | Linux application sandboxing and distribution framework (formerly xdg-app) |
+| flatpak-kcm | Flatpak Permissions Management KCM |
+| freerdp | Free implementation of the Remote Desktop Protocol (RDP) |
 | fzf | Command-line fuzzy finder |
 | git | the fast distributed version control system |
-| github-cli | The GitHub CLI |
 | grub | GNU GRand Unified Bootloader (2) |
 | htop | Interactive process viewer |
 | intel-gpu-tools | Tools for development and testing of the Intel DRM driver |
 | intel-media-driver | Intel Media Driver for VAAPI — Broadwell+ iGPUs |
 | intel-ucode | Microcode update files for Intel CPUs |
-| iwd | Internet Wireless Daemon |
 | jq | Command-line JSON processor |
 | konsole | KDE terminal emulator |
 | lazygit | Simple terminal UI for git commands |
 | less | A terminal based program for viewing text files |
+| liblas | C/C++ library for reading and writing the very common LAS LiDAR format |
 | libva-utils | Intel VA-API Media Applications and Scripts for libva |
 | linux | The Linux kernel and modules |
 | linux-firmware | Firmware files for Linux |
-| linux-headers | Headers and scripts for building modules for the Linux kernel |
 | man-db | A utility for reading man pages |
-| mpv | a free, open source, and cross-platform media player |
 | neovim | Fork of Vim aiming to improve user experience, plugins, and GUIs |
-| networkmanager | Network connection manager and user applications |
 | npm | JavaScript package manager |
 | nvchecker-git | a tool for checking if a new version of some software has been released. |
-| nvidia | NVIDIA drivers for linux |
-| nvidia-prime | NVIDIA Prime Render Offload configuration and utilities |
 | openssh | SSH protocol implementation for remote login, command execution and file transfer |
 | os-prober | Utility to detect other OSes on a set of drives |
 | p7zip | Command-line file archiver with high compression ratio |
@@ -69,19 +65,18 @@
 | plasma-meta | Meta package to install KDE Plasma |
 | power-profiles-daemon | Makes power profiles handling available over D-Bus |
 | pyenv | Easily switch between multiple versions of Python |
+| remmina | remote desktop client written in GTK+ |
 | ripgrep | A search tool that combines the usability of ag with the raw speed of grep |
 | strace | A diagnostic, debugging and instructional userspace tracer |
 | telegram-desktop | Official Telegram Desktop client |
-| tk | A windowing toolkit for use with tcl |
 | ttf-fira-code | Monospaced font with programming ligatures |
 | ttf-nerd-fonts-symbols | High number of extra glyphs from popular 'iconic fonts' |
-| ttf-twemoji | Truetype builds of Twemoji; Twitter Color Emoji for everyone. |
 | unarchiver | unar and lsar |
 | unzip | For extracting and viewing files in .zip archives |
+| visual-studio-code-bin | Visual Studio Code (vscode) |
 | wget | Network utility to retrieve files from the Web |
 | wl-clipboard | Command-line copy/paste utilities for Wayland |
 | xorg-xlsclients | List client applications running on a display |
 | xorg-xwininfo | Command-line utility to print information about windows on an X server |
 | yazi | Blazing fast terminal file manager written in Rust, based on async I/O |
-| yt-dlp | A youtube-dl fork with additional features and fixes |
 | zoxide | A smarter cd command for your terminal |

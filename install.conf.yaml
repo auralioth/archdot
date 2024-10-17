@@ -10,9 +10,7 @@
     ~/.config/paru:
     ~/.config/clangd:
     ~/.config/code-flags.conf:
-    ~/.config/chrome-flags.conf:
     ~/.config/yazi:
-    ~/.config/fish:
     ~/.gitconfig:
     ~/.latexmkrc:
     ~/.bashrc:
