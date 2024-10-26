@@ -8,9 +8,12 @@ set -e
 
 export DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/$(id -u $USER)/bus
 
+# look for desktop environment
+de=$(echo $XDG_CURRENT_DESKTOP | tr '[:upper:]' '[:lower:]')
+
 cacheDir="$HOME/.cache"
 backupDir="$HOME/.dotfile/backup"
-pkginfo="$backupDir/pkginfo.md"
+pkginfo="$backupDir/pkginfo_$de.md"
 scriptPath='$HOME/.dotfile/scripts/pkginfo.sh'
 
 mkdir -p "$backupDir"
@@ -26,48 +29,45 @@ echo "| ------- | ---- |" >>"$pkginfo"
 paru -Qe | awk '{print $1}' >"$cacheDir/current_packages.txt"
 
 if [ -f "$cacheDir/previous_packages.txt" ]; then
-	sort "$cacheDir/previous_packages.txt" -o "$cacheDir/previous_packages.txt"
-	sort "$cacheDir/current_packages.txt" -o "$cacheDir/current_packages.txt"
+  sort "$cacheDir/previous_packages.txt" -o "$cacheDir/previous_packages.txt"
+  sort "$cacheDir/current_packages.txt" -o "$cacheDir/current_packages.txt"
 
-	comm -23 "$cacheDir/previous_packages.txt" "$cacheDir/current_packages.txt" >"$cacheDir/removed_packages.txt"
-	comm -13 "$cacheDir/previous_packages.txt" "$cacheDir/current_packages.txt" >"$cacheDir/added_packages.txt"
+  comm -23 "$cacheDir/previous_packages.txt" "$cacheDir/current_packages.txt" >"$cacheDir/removed_packages.txt"
+  comm -13 "$cacheDir/previous_packages.txt" "$cacheDir/current_packages.txt" >"$cacheDir/added_packages.txt"
 else
-	cp "$cacheDir/current_packages.txt" "$cacheDir/added_packages.txt"
-	touch "$cacheDir/removed_packages.txt"
+  cp "$cacheDir/current_packages.txt" "$cacheDir/added_packages.txt"
+  touch "$cacheDir/removed_packages.txt"
 fi
 
 mv "$cacheDir/current_packages.txt" "$cacheDir/previous_packages.txt"
 
 if [ -s "$cacheDir/added_packages.txt" ]; then
-	added_packages=$(awk '{printf "%s\n", $0}' "$cacheDir/added_packages.txt")
-	notify-send -u normal \
-		-i "package-install" \
-		-a "kcron" \
-		"软件包添加：" \
-		"$added_packages"
+  added_packages=$(awk '{printf "%s\n", $0}' "$cacheDir/added_packages.txt")
+  notify-send -u normal \
+    -i "package-install" \
+    "软件包添加：" \
+    "$added_packages"
 fi
 
 if [ -s "$cacheDir/removed_packages.txt" ]; then
-	removed_packages=$(awk '{printf "%s\n", $0}' "$cacheDir/removed_packages.txt")
-	notify-send -u normal \
-		-i "package-remove" \
-		-a "kcron" \
-		"软件包移除" \
-		"$removed_packages"
+  removed_packages=$(awk '{printf "%s\n", $0}' "$cacheDir/removed_packages.txt")
+  notify-send -u normal \
+    -i "package-remove" \
+    "软件包移除" \
+    "$removed_packages"
 fi
 
 if [ ! -s "$cacheDir/added_packages.txt" ] && [ ! -s "$cacheDir/removed_packages.txt" ]; then
-	notify-send -u normal \
-		-i "dialog-scripts" \
-		-a "kcron" \
-		"pkginfo.sh 运行" \
-		"未检测到软件包变更"
+  notify-send -u normal \
+    -i "dialog-scripts" \
+    "pkginfo.sh 运行" \
+    "未检测到软件包变更"
 fi
 
 get_package_description() {
-	package="$1"
-	description=$(LANG=C paru -Qi "$package" | awk -F': ' '/^Description/ {print $2}')
-	echo "| $package | $description |"
+  package="$1"
+  description=$(LANG=C paru -Qi "$package" | awk -F': ' '/^Description/ {print $2}')
+  echo "| $package | $description |"
 }
 
 export -f get_package_description
@@ -75,5 +75,5 @@ export -f get_package_description
 packages=$(paru -Qeq)
 
 for package in $packages; do
-	get_package_description "$package" >>"$pkginfo"
+  get_package_description "$package" >>"$pkginfo"
 done
