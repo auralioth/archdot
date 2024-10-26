@@ -13,7 +13,6 @@
 | bash-completion | Programmable completion for the bash shell |
 | bat | Cat clone with syntax highlighting and git integration |
 | bind | A complete, highly portable implementation of the DNS protocol |
-| breeze | Artwork, styles and assets for the Breeze visual style for the Plasma Desktop |
 | btrfs-progs | Btrfs filesystem utilities |
 | clang | C language family frontend for LLVM |
 | cmake | A cross-platform open-source make system |
@@ -52,6 +51,7 @@
 | gnome-shell-extensions | Extensions for GNOME shell, including classic mode |
 | gnome-system-monitor | View current processes and monitor system state |
 | gnome-tweaks | Graphical interface for advanced GNOME 3 settings (Tweak Tool) |
+| gnome-weather | Access current weather conditions and forecasts |
 | grub | GNU GRand Unified Bootloader (2) |
 | gvfs-google | Virtual filesystem implementation for GIO - Google Drive backend |
 | gvfs-onedrive | Virtual filesystem implementation for GIO - Microsoft OneDrive backend |
@@ -69,6 +69,7 @@
 | linux-firmware | Firmware files for Linux |
 | man-db | A utility for reading man pages |
 | meld | Compare files, directories and working copies |
+| mpv | a free, open source, and cross-platform media player |
 | mutter-performance | A window manager for GNOME | Attempts to improve performances with non-upstreamed merge-requests and frequent stable branch resync |
 | nautilus | Default file manager for GNOME |
 | neovim | Fork of Vim aiming to improve user experience, plugins, and GUIs |
@@ -78,6 +79,7 @@
 | nvidia-open | NVIDIA open kernel modules |
 | nvidia-prime | NVIDIA Prime Render Offload configuration and utilities |
 | nvtop | GPUs process monitoring for AMD, Intel and NVIDIA |
+| obs-studio | Free, open source software for live streaming and recording |
 | openssh | SSH protocol implementation for remote login, command execution and file transfer |
 | os-prober | Utility to detect other OSes on a set of drives |
 | p7zip | Command-line file archiver with high compression ratio |
