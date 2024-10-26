@@ -13,12 +13,10 @@
 | bash-completion | Programmable completion for the bash shell |
 | bat | Cat clone with syntax highlighting and git integration |
 | bind | A complete, highly portable implementation of the DNS protocol |
-| boost | Free peer-reviewed portable C++ source libraries (development headers) |
 | btrfs-progs | Btrfs filesystem utilities |
 | clang | C language family frontend for LLVM |
 | cmake | A cross-platform open-source make system |
 | daed-bin-x64-v3 | A modern dashboard for dae, bundled with dae-wing (backend API server) and dae (core). |
-| dhcpcd | DHCP/ IPv4LL/ IPv6RA/ DHCPv6 client |
 | dnsmasq | Lightweight, easy to configure DNS forwarder and DHCP server |
 | dog | Command-line DNS client like dig |
 | efibootmgr | Linux user-space application to modify the EFI Boot Manager |
@@ -36,7 +34,6 @@
 | ffmpegthumbnailer | Lightweight video thumbnailer that can be used by file managers |
 | firefox | Fast, Private & Safe Web Browser |
 | flatpak | Linux application sandboxing and distribution framework (formerly xdg-app) |
-| freerdp2 | Free implementation of the Remote Desktop Protocol (RDP) |
 | fzf | Command-line fuzzy finder |
 | gdm | Display manager and login screen |
 | git | the fast distributed version control system |
@@ -56,7 +53,6 @@
 | intel-gpu-tools | Tools for development and testing of the Intel DRM driver |
 | intel-media-driver | Intel Media Driver for VAAPI — Broadwell+ iGPUs |
 | intel-ucode | Microcode update files for Intel CPUs |
-| iwd | Internet Wireless Daemon |
 | jq | Command-line JSON processor |
 | lazygit | Simple terminal UI for git commands |
 | less | A terminal based program for viewing text files |
