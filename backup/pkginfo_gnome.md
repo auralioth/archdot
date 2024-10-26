@@ -13,6 +13,7 @@
 | bash-completion | Programmable completion for the bash shell |
 | bat | Cat clone with syntax highlighting and git integration |
 | bind | A complete, highly portable implementation of the DNS protocol |
+| breeze | Artwork, styles and assets for the Breeze visual style for the Plasma Desktop |
 | btrfs-progs | Btrfs filesystem utilities |
 | clang | C language family frontend for LLVM |
 | cmake | A cross-platform open-source make system |
@@ -21,6 +22,9 @@
 | dog | Command-line DNS client like dig |
 | efibootmgr | Linux user-space application to modify the EFI Boot Manager |
 | envycontrol | CLI tool for Nvidia Optimus graphics mode switching on Linux |
+| eog | Eye of Gnome |
+| evince | Document viewer (PDF, PostScript, XPS, djvu, dvi, tiff, cbr, cbz, cb7, cbt) |
+| evolution | Manage your email, contacts and schedule |
 | expac | alpm data (pacman database) extraction utility |
 | fastfetch | A feature-rich and performance oriented neofetch like system information tool |
 | fcitx5 | Next generation of fcitx |
@@ -47,7 +51,10 @@
 | gnome-shell | Next generation desktop shell |
 | gnome-shell-extensions | Extensions for GNOME shell, including classic mode |
 | gnome-system-monitor | View current processes and monitor system state |
+| gnome-tweaks | Graphical interface for advanced GNOME 3 settings (Tweak Tool) |
 | grub | GNU GRand Unified Bootloader (2) |
+| gvfs-google | Virtual filesystem implementation for GIO - Google Drive backend |
+| gvfs-onedrive | Virtual filesystem implementation for GIO - Microsoft OneDrive backend |
 | htop | Interactive process viewer |
 | inetutils | A collection of common network programs |
 | intel-gpu-tools | Tools for development and testing of the Intel DRM driver |
