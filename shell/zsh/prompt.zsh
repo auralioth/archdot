@@ -99,7 +99,7 @@ function machine_name() {
     if [[ -f $HOME/.name ]]; then
         cat $HOME/.name
     else
-	hostname
+	cat /etc/hostname
     fi
 }
 
