@@ -7,24 +7,21 @@ export XDG_STATE_HOME=$HOME/.local/state
 # ZDOTDIR variable
 export ZDOTDIR=$XDG_CONFIG_HOME/shell/zsh
 
+command -v nvim >/dev/null 2>&1 && export EDITOR=nvim
+
 # fcitx5
 # export XMODIFIERS=@im=fcitx
 
-
 # TinyTeX ctex can not find Chinese fonts
-export OSFONTDIR=/usr/local/share/fonts
+command -v latex >/dev/null 2>&1 && export OSFONTDIR=/usr/local/share/fonts
 
-# export PYENV_ROOT="$HOME/.pyenv"
-# [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
-# eval "$(pyenv init -)"
-
-# Default apps
-export EDITOR=nvim
-
-if [ -d "$HOME/bin" ] ; then
-    export PATH="$PATH:$HOME/bin"
+if command -v pyenv >/dev/null 2>&1; then
+    export PYENV_ROOT="$HOME/.pyenv"
+    [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+    eval "$(pyenv init -)"
 fi
 
-if [ -d "$HOME/.local/bin" ] ; then
-    export PATH="$PATH:$HOME/.local/bin"
-fi
+
+[ -d "$HOME/bin" ] && export PATH="$PATH:$HOME/bin"
+
+[ -d "$HOME/.local/bin" ] && export PATH="$PATH:$HOME/.local/bin"

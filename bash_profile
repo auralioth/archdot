@@ -5,22 +5,20 @@ export XDG_STATE_HOME=$HOME/.local/state
 
 # export XMODIFIERS=@im=fcitx
 
-export EDITOR=nvim
+command -v nvim >/dev/null 2>&1 && export EDITOR=nvim
 
 # TinyTeX ctex can not find Chinese fonts
-export OSFONTDIR=/usr/local/share/fonts
+command -v latex >/dev/null 2>&1 && export OSFONTDIR=/usr/local/share/fonts
 
-# export PYENV_ROOT="$HOME/.pyenv"
-# [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
-# eval "$(pyenv init -)"
-
-if [ -d "$HOME/bin" ]; then
-  export PATH="$PATH:$HOME/bin"
+if command -v pyenv >/dev/null 2>&1; then
+  export PYENV_ROOT="$HOME/.pyenv"
+  [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+  eval "$(pyenv init -)"
 fi
 
-if [ -d "$HOME/.local/bin" ]; then
-  export PATH="$PATH:$HOME/.local/bin"
-fi
+[ -d "$HOME/bin" ] && export PATH="$PATH:$HOME/bin"
+
+[ -d "$HOME/.local/bin" ] && export PATH="$PATH:$HOME/.local/bin"
 
 alias vi=nvim
 alias f=yazi
