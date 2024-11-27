@@ -1,6 +1,7 @@
 CompileFlags:
   Add:
     - -pedantic-errors
+    - -stdlib=libc++
     - -Werror
     - -Wall
     - -Weffc++
@@ -11,13 +12,21 @@ Diagnostics:
   ClangTidy:
     Add:
       - bugprone-*
+      - cert-*
       - clang-analyzer-*
+      - concurrency-*
+      - cppcoreguidelines-*
+      - hicpp-*
       - modernize-*
       - performance-*
       - portability-*
-      - readability-*
-  UnusedIncludes: Strict
-  MissingIncludes: Strict
+      - readability-*clang-analyzer-*
+    Remove:
+      - modernize-use-trailing-return-type
+      - readability-else-after-return
+      - readability-static-accessed-through-instance
+      - readability-avoid-const-params-in-decls
+    FastCheckFilter: None
 ---
 If:
   PathMatch:
