@@ -26,15 +26,3 @@ fi
 
 [ -d "$HOME/.local/bin" ] && export PATH="$PATH:$HOME/.local/bin"
 
-function dotfile_autoupdate() {
-    dotfile add -u && \
-    dotfile commit -m "Update $(date +"%Y-%m-%d %H:%M") \
-        $(uname -s)/$(uname -m)-$(hostname -s)" && dotfile push
-}
-
-function dotfile_init() {
-	git --no-replace-objects clone --bare --depth 1 -b $(hostname -s)\
-        	git@github.com:auralioth/dotfile.git $HOME/.cfg;
-    dotfile config --local status.showUntrackedFiles no;
-    dotfile checkout -f
-}
