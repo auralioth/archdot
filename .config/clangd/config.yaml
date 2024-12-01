@@ -1,0 +1,47 @@
+CompileFlags:
+  Add:
+    - -pedantic-errors
+    - -stdlib=libc++
+    - -Werror
+    - -Wall
+    - -Weffc++
+    - -Wextra
+    - -Wconversion
+
+Diagnostics:
+  ClangTidy:
+    Add:
+      - bugprone-*
+      - cert-*
+      - clang-analyzer-*
+      - concurrency-*
+      - cppcoreguidelines-*
+      - hicpp-*
+      - modernize-*
+      - performance-*
+      - portability-*
+      - readability-*clang-analyzer-*
+    Remove:
+      - modernize-use-trailing-return-type
+      - readability-else-after-return
+      - readability-static-accessed-through-instance
+      - readability-avoid-const-params-in-decls
+    FastCheckFilter: None
+---
+If:
+  PathMatch:
+    - .*\.c
+    - .*\.h
+CompileFlags:
+  Add:
+    - -std=c17
+  Compiler: clang
+---
+If:
+  PathMatch:
+    - .*\.cpp
+    - .*\.hpp
+CompileFlags:
+  Add:
+    - -std=c++23
+  Compiler: clang++
