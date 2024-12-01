@@ -14,3 +14,5 @@ EOF
 if [ -f ~/.config/fzf/fzf.zsh ]; then
     source ~/.config/fzf/fzf.zsh
 fi
+
+test -f /usr/share/ublue-os/bluefin-cli/bling.sh && source /usr/share/ublue-os/bluefin-cli/bling.sh

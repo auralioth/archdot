@@ -6,4 +6,4 @@ alias ls="ls --color=auto"
 alias n=fastfetch
 alias q=exit
 alias su="su -l"
-alias config='git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+alias dotfile='git --git-dir=$HOME/.cfg/ --work-tree=$HOME'

@@ -4,15 +4,6 @@ export XDG_CACHE_HOME=$HOME/.cache
 export XDG_DATA_HOME=$HOME/.local/share
 export XDG_STATE_HOME=$HOME/.local/state
 
-# brew
-export HOMEBREW_PREFIX="/home/linuxbrew/.linuxbrew";
-export HOMEBREW_CELLAR="/home/linuxbrew/.linuxbrew/Cellar";
-export HOMEBREW_REPOSITORY="/home/linuxbrew/.linuxbrew/Homebrew";
-fpath[1,0]="/home/linuxbrew/.linuxbrew/share/zsh/site-functions";
-export PATH="/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin${PATH+:$PATH}";
-[ -z "${MANPATH-}" ] || export MANPATH=":${MANPATH#:}";
-export INFOPATH="/home/linuxbrew/.linuxbrew/share/info:${INFOPATH:-}";
-
 # ZDOTDIR variable
 export ZDOTDIR=$XDG_CONFIG_HOME/zsh
 
@@ -34,3 +25,16 @@ fi
 [ -d "$HOME/bin" ] && export PATH="$PATH:$HOME/bin"
 
 [ -d "$HOME/.local/bin" ] && export PATH="$PATH:$HOME/.local/bin"
+
+function dotfile_autoupdate() {
+    dotfile add -u && \
+    dotfile commit -m "Update $(date +"%Y-%m-%d %H:%M") \
+        $(uname -s)/$(uname -m)-$(hostname -s)" && dotfile push
+}
+
+function dotfile_init() {
+	git --no-replace-objects clone --bare --depth 1 -b $(hostname -s)\
+        	git@github.com:auralioth/dotfile.git $HOME/.cfg;
+    dotfile config --local status.showUntrackedFiles no;
+    dotfile checkout -f
+}
